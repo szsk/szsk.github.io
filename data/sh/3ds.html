@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />	
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<link rev="made" href="mailto:suzusaki_es@hotmail.com" />
+	<link rel="StyleSheet" href="style/sh.css" />
+	<link rel="home top contents index" href="./" />
+	<link rel="up" href="../" />
+	<link rel="help" href="./about.html" />
+	<link rel="bookmark" href="./#bookmark" />
+	<title>ソウルハッカーズ &raquo; 3DS版について</title>
+</head>
+<body>
+
+<ul id="top">
+	<li><a tabindex="1" accesskey="1" href="./">トップ</a></li>
+	<li><a tabindex="2" accesskey="2" href="guide/">シナリオ攻略</a></li>
+	<li><a tabindex="3" accesskey="3" href="system/">システム</a></li>
+	<li><a tabindex="4" accesskey="4" href="data/">データ</a></li>
+	<li><a tabindex="5" accesskey="5" href="text/">テキスト</a></li>
+	<li>
+		<form method="get" action="http://www.google.co.jp/search"><p>
+			<input type="radio" class="radio" name="sitesearch" value="" id="www" /><label for="www">www</label>
+			<input type="radio" class="radio" name="sitesearch" value="bmky.net/data/sh/" id="site" checked="checked" /><label for="site">Hackers</label>
+			<input type="text" class="text" name="q" size="12" maxlength="128" value="" />
+			<input type="submit" class="submit" name="btnG" value="検索" />
+			<input type="hidden" name="hl" value="ja" />
+			<input type="hidden" name="ie" value="UTF-8" />
+		</p></form>
+	</li>
+</ul>
+
+<h1>3DS版について</h1>
+
+<dl>
+  <dd>
+
+<p>未確認情報多し。以下ネタバレ含みます。</p>
+
+<p><a href="#isyoku">移植について</a> / <a href="#comp">COMPハック</a> / <a href="#neme">ネメッチー</a> / <a href="#mapper">マッパーリストラ</a> / <a href="#install">追加インストールソフト</a><br />
+<a href="#round2">2周目について</a> / <a href="#kasegi">お金稼ぎ</a> / <a href="#book">関連書籍/CD</a> / <a href="#cast">キャスト</a> / <a href="#raidou">ライドウ</a> / <a href="#bug">バグ</a> / <a href="#misc">その他</a></p>
+
+<h2 id="isyoku">移植について</h2>
+
+<p>かなりベタ移植に+α。最も大きいのはロード時間の簡略化と戦闘シーンのテンポ高速化。PS版で1ターン目のコマンド選んでる間に3DS版なら戦闘が終わってる。</p>
+
+<p>グラフィック素材については、ほとんどそのまま流用。ムービーシーンは粗い。</p>
+
+<p>サウンドに難有り。SEとボイスの音量バランスが取れておらず、音量調節が不可能。</p>
+
+<h2 id="comp">COMPハック</h2>
+
+<p>なお、下記ハック適用によるデメリット（最初から最後まで難易度UPならご褒美等）については、未調査。</p>
+
+<h3>難易度</h3>
+
+<p>UPにすると従来の2周目相当の難易度になる。その代わり、3DS版では2周目になっても難易度に変化は無いので、いきなり最初からPS版の2周目難易度で楽しめる。</p>
+
+	<table summary="">
+		<thead>
+      <tr><th>難易度</th><th>取得経験値</th><th>取得MAG</th><th>全書閲覧料金</th><th>被ダメージ</th><th>与ダメージ</th><th>その他</th></tr>
+		</thead>
+		<tbody>
+      <tr><td>UP</td><td>100%</td><td>100%</td><td>200%</td><td>150%</td><td>75%</td><td></td></tr>
+      <tr><td>OFF</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td></td></tr>
+      <tr><td>DOWN</td><td></td><td>UP</td><td>20%</td><td></td><td>100%</td><td>逃走成功率100%</td></tr>
+    </tbody>
+  </table>
+<h3>マップハック</h3>
+
+<p>常に下画面のオートマップが未踏破部分も含めて全て解放される。</p>
+
+<h3>属性ハック</h3>
+
+<p>通常、極端に異なる属性の悪魔を同時に召喚できないが、それが可能になる。</p>
+
+<h3>アナライズハック</h3>
+
+<p>初めて出会った敵でもステータスの詳細情報を確認できるようになる。ボスには無効。</p>
+
+<h2 id="neme">ネメッチー</h2>
+
+<p>3DS版新要素の一つ。プレイヤー同士ですれ違うことでネメッチーが成長し、特殊な悪魔を召喚できるようになる。</p>
+
+<h3>すれ違う方法について</h3>
+
+<p><em>ソウルハッカーズをすれ違い登録した</em>本体同士ですれ違うことが可能。登録さえしていればいいので、他のゲームソフトを本体に刺していても構わない。</p>
+
+<p>ソウルハッカーズのすれ違いは、相手にユーザー名等の個人情報は渡していない（閲覧できない）ので、安心してすれ違うことが出来る。</p>
+
+<h3>すれ違いデータについて</h3>
+
+<p>すれ違ったデータは3DS本体に格納され、ゲームプレイ時に吸い上げる形になる。仮に3人のソウルハッカーズとすれ違った場合、どれか一つのセーブデータで3回分全て吸い上げることになる。</p>
+
+<p>すれ違いデータを吸い上げたらセーブしないと、ゲームオーバーになってしまった場合、無くなってしまう。</p>
+
+<h3>進化・追加について</h3>
+
+<p>ネメッチーは規定回数すれ違うとネメッチーが進化または召喚可能な悪魔が追加されるが、その後は約1日待たないと次の進化・追加が発生しない。どうしてもすぐに発生させたい場合は3DSの日付を弄ることで強制的に発生させることができる。その後、一度でもすれ違いデータを吸い上げれば進化・追加は発生する。</p>
+
+<h3>解禁される悪魔について</h3>
+
+<p>ネメッチーから悪魔を召喚すると自動的に悪魔全書に登録されるだけでなく、通常の合体でも作成することが可能になる。</p>
+
+<h3>形態初期化</h3>
+
+<p>ネメッチは第三段階以降は2つのタイプに分かれ、それぞれで解禁される悪魔が異なる。</p>
+
+<p>片方の形態で悪魔を最後まで解禁したら初期化することで再び第一形態から育てることが出来る。</p>
+
+<h3>複数台で何度でもすれ違い</h3>
+
+<p>メインで使用する本体をA、<em>初期化してもいい</em>本体をBとする。A・B両方にハッカーズをすれ違い登録させる。</p>
+
+<ol>
+  <li>Bを本体設定から初期化する。初期設定では規約に同意する。その後の設定は「今はしない」</li>
+  <li>設定完了後すぐにハッカーズを起動。</li>
+  <li>ネメッチーを呼び出して「すれ違い登録が完了しました」と出たら3DSの蓋を閉じる。</li>
+  <li>10秒ほど待って、A・B両方ともすれ違いの緑ランプが点滅したら、Bの蓋を開ける。</li>
+  <li>ネメッチーがそのまますれ違い成功のDソウルをくれるのでセーブ</li>
+  <li>HOMEボタンを押して本体初期化へ</li>
+</ol>
+
+<p>所要時間約4分。両方の3DSですれ違いが残るので、1度で2回分すれ違える。</p>
+
+<h3>合体結果の変化</h3>
+
+<p>追加悪魔を一度でもネメッチーから召喚すると、以後その悪魔を通常合体で呼び出せるようになる。</p>
+
+<p>これを利用することで追加悪魔に魔法を継承させることが可能になるが、今度は今まで利用してきた合体レシピが通用しなくなる場合もあるので注意が必要。一度でも召喚すると、例え何周しても<em>取り返しは付かなくなる</em>。</p>
+
+<h3>進化段階による追加悪魔一覧</h3>
+
+<table>
+  <tbody>
+    <tr><th>累計回数</th><th>進化段階</th><th>解禁悪魔</th></tr>
+    <tr><td>0</td><td>LV1</td><td><a class="al n" href="data/devil/48.html#D9">妖精ピクシー</a></a><br><a class="al n" href="data/devil/48.html#D17">地霊ノッカー</a><br><a class="al n" href="data/devil/48.html#D16">珍獣オリバーゼロ</a></td></tr>
+    <tr><td>4</td><td>LV2（蛇）</td><td><a class="al n" href="data/devil/48.html#D10">妖精ゴブリン</a><br><a class="al l" href="data/devil/48.html#D24">凶鳥モー・ショボー</a></td></tr>
+    <tr><td>24</td><td>LV2 追加</td><td><a class="al n" href="data/devil/48.html#D4">精霊シルフ</a><br><a class="al c" href="data/devil/48.html#D29">外道ドウマン</a></td></tr>
+    <tr><th>累計回数</th><th>進化段階</th><th>解禁悪魔</th><th>進化段階</th><th>解禁悪魔</th></tr>
+    <tr><td>40</td><td>LV3 ♀（ネコ）</td><td><a class="al ec" href="data/devil/48.html#D20">堕天使フォルネウス</a><br><a class="al n" href="data/devil/48.html#D14">魔獣ドアマース</a></td><td>LV3 ♂（タコ）</td><td><a class="al n" href="data/devil/48.html#D13">魔獣ネコマタ</a><br><a class="al c" href="data/devil/48.html#D18">夜魔じゃあくフロスト</a></td></tr>
+  <tr><td>48</td><td>LV3 ♀ 追加</td><td><a class="al ec" href="data/devil/48.html#D27">魔王モロク</a></td><td>LV3 ♂ 追加</td><td><a class="al ec" href="data/devil/48.html#D6">地母神クシナダヒメ</a></td></tr>
+    <tr><th>累計回数</th><th>進化段階</th><th>解禁悪魔</th><th>進化段階</th><th>解禁悪魔</th></tr>
+    <tr><td>60</td><td>LV4 ♀ （足）</td><td><a class="al n" href="data/devil/48.html#D11">妖精セタンタ</a><br><a class="al n" href="data/devil/48.html#D26">破壊神チェルノボグ</a></td><td>LV4 ♂ （団子）</td><td><a class="al n" href="data/devil/48.html#D25">死神ＤＢ・バスターズ</a></td></tr>
+    <tr><td>72</td><td>LV4 ♀ 追加1</td><td><a class="al c" href="data/devil/48.html#D19">夜魔キウン</a></td><td>LV4 ♂ 追加1</td><td><a class="al n" href="data/devil/48.html#D12">妖精ティターニア</a><br><a class="al c" href="data/devil/48.html#D22">妖鬼ヤクシャ</a></td></tr>
+<tr><td>80</td><td>LV4 ♀ 追加2</td><td><a class="al n" href="data/devil/48.html#D21">妖鬼シキオウジ</a><br><a class="al ec" href="data/devil/48.html#D28">魔王ロキ</a></td><td>LV4 ♂ 追加1</td><td><a class="al n" href="data/devil/48.html#D15">魔獣ケルベロス</a></td></tr>
+    <tr><th>累計回数</th><th>進化段階</th><th>解禁悪魔</th><th>進化段階</th><th>解禁悪魔</th></tr>
+<tr><td>100</td><td>LV5 ♀（天使）</td><td><a class="al ec" href="data/devil/48.html#D5">破壊神ヤマ</a></td><td>LV5 ♂（天使）</td><td><a class="al l" href="data/devil/48.html#D8">天使ケルプ</a></td></tr>
+<tr><td>108</td><td>LV5 ♀ 追加1</td><td><a class="al c" href="data/devil/48.html#D7">鬼神トール</a><br><a class="al n" href="data/devil/48.html#D30">威霊アルビオン</a></td><td>LV5 ♂ 追加1</td><td><a class="al el" href="data/devil/48.html#D1">魔神オーディン</a><br><a class="al el" href="data/devil/48.html#D23">邪神マダ</a></td></tr>
+        <tr><td>116</td><td>LV5 ♀ 追加2</td><td><a class="al el" href="data/devil/48.html#D3">大天使ルシファフロスト</a></td><td>LV5 ♂ 追加2</td><td><a class="al el" href="data/devil/48.html#D2">女神イザナミ</a></td></tr>
+</tbody>
+</table>
+
+<p>累計回数は暫定で正確ではない。一度進化したら、24時間以上待った上で次の進化までひたすらすれ違うしか無い。</p>
+
+<p>※一度初期化すると、異なる性別に進化しやすくなる<em>らしい</em><br>※片方の形態をコンプした後に初期化すると、必要すれ違い回数が変化する<em>らしい</em>。</p>
+
+<h2 id="mapper">マッパーリストラ</h2>
+
+<p>下画面に常にオートマップが表示されるようになったので、マッパー・見晴らしの玉・ネオクリアが無くなった。
+その代わり、悪魔は別の魔法を、宝箱は別のアイテムが入るようになっている。</p>
+
+<h3>悪魔</h3>
+
+<ul>
+<li>堕天使シャックス / 空き</li>
+<li>霊鳥ヤタガラス / 空き</li>
+<li>妖鳥タンガタ・マヌ / 空き</li>
+<li>聖獣スレイプニル / 空き</li>
+<li>聖獣ヘケト / ディア</li>
+<li>魔獣オルトロス / 空き</li>
+<li>妖鬼トケビ / 空き</li>
+</ul>
+
+<h3>宝箱</h3>
+
+<ul>
+<li>天海空港2階 / じゃあく・パネル</li>
+<li>レオン自工1階 / 耐力の香</li>
+<li>レオン自工3階 / キング・パネル</li>
+<li>天海フロート5階 / チャイカムTNT</li>
+<li>VRパーク / 2000MAG</li>
+<li>霊長知能総研2階 / ルシファ・パネル</li>
+<li>天海モノリス2階 / 知恵の香</li>
+</ul>
+
+<h3>ドロップ</h3>
+
+<ul>
+<li>堕天使セエレ、妖鬼ビルヴィス、屍鬼フェイスバインドがドロップしなくなった。代わりに何か落とすかどうかは未確認。</li>
+</ul>
+
+<h2 id="install">追加インストールソフト</h2>
+
+<p>キング・パネル / じゃあく・パネル / ルシファ・パネル / タイムガールが復活。マッパーリストラに伴ってネオクリアが削除。</p>
+
+<h2 id="round2">2周目について</h2>
+
+<p>2周目及び次の周へは下記のものが引き継がれる。</li>
+
+<ul>
+  <li>銀行に預けたお金<em>（カンストしなくなった）</em></li>
+  <li>カジノのコイン</li>
+  <li>悪魔全書・剣全書</li>
+  <li>ネメッチーの呼び出し可能悪魔一覧</li>
+  <li>悪魔の会話フラグ</li>
+  <li>アナライズ一覧</li>
+</ul>
+
+<p>また、2周目以降は自動で下記の要素が追加される。</p>
+
+<ul>
+  <li>特殊エンディングフラグ</li>
+  <li>インストールソフト「スティーブン」「フライデー」が初期装備</li>
+  <li>業魔殿での合体LV制限が解除</li>
+  <li>ネメッチー呼び出し悪魔のLV制限が解除</li>
+  <li>芝浜コアの各店にミニゲームが追加</li>
+</ul>
+
+<p>よって、2周目に入る前に、所持品とMAGを全て売却して銀行へ、溢れた分はコインに変えておこう。</p>
+
+<p>ネメッチーは初期化されてしまい、Dソウルも0になってしまう。全書未登録の悪魔がいたら召喚だけでもしておこう。</p>
+
+<p>それと、2周目は合体時のLV制限が解除されるので、エキストラダンジョンへ挑むのに最も適した状態となる。主人公とネミッサの成長方針はそれを踏まえたものにするといいだろう。</p>
+
+<ul>
+  <li>アギッサ：くりからの黒龍でエクストラのラスボスに大ダメージ可能。</li>
+  <li>ジオッサ：満月の女王のおかげでソーマ箱のレベル上げが最も楽。</li>
+  <li>ブフッサ：利点は無い。現実は非情である。</li>
+</ul>
+
+<h2 id="kasegi">お金稼ぎ</h2>
+
+<h3>霊長知能総研</h3>
+
+<p>ひたすら雑魚狩り。常に高エンカウント状態・敵が弱いにもかかわらず、一度の戦闘で1000xA訓500マグネタイトが手に入る。敵全体に均等にダメージが入る攻撃でリピートすれば、あっという間にマグが溜まる。</p>
+
+<h3>次元の回廊のソーマ箱</h3>
+
+<p>回廊5のソーマから出現する悪魔で稼ぐ。1回約4000MAG。ソーマを10個持っていれば何度でも戦うことができる。知力・魔力40の悪魔でメギドラオンを撃てば一発で終わる。その他、メギドファイアー連発や満月の女王でも可。</p>
+
+<h3>鳥サブレ錬金</h3>
+
+<ol>
+  <li>適当な愚鈍の仲魔を王国屋で凶鳥モー・ショボーと交換する。 or 御霊を入れていない凶鳥モー・ショボーを悪魔全書に登録する。（普通に合体で作るかダーク・マンで仲魔に）</li>
+  <li>悪魔全書からモー・ショボーを引き出す。(難易度DOWNで714MAG）</li>
+  <li>芝浜コアで「酒徳神のおちょこ」を4つ購入。合計￥7920。主人公のLVが22から購入可能。</li>
+  <li>おちょこ4つをモー・ショボーに与えて業魔殿で魔晶変化させて「鳥サブレ」を入手。</li>
+  <li>鳥サブレを売却すると￥30000</li>
+</ol>
+
+<p>MAGレートが10MAG=￥100の場合、714MAG(￥7140)+￥7920=￥15060。一度で約15000円の儲けとなる。序盤ではそこそこの換金率。業魔殿と芝浜コアを行き来するだけでいいので比較的楽。（情報提供ありがとうございます。）</p>
+
+<h3>全書活用（2周目推奨）</h3>
+
+<ul>
+  <li>悪霊クイックシルバー(M) + 妖魔ヴォジャノーイ(M) = 幽鬼チュレル(￥20000)</li>
+  <li>邪龍チョトンダ(M588) + 妖鳥ハーピー(M462) = 凶鳥モー・ショボー(￥30000)</li>
+  <li>鬼女アチェリ(M588) + 屍鬼ドラッグクイーン(M308) = 悪霊ガロット(￥20000)</li>
+  <li>妖魔ペリ(M3430) + おちょこ*4(￥9900) = ￥100000</li>
+  <li>妖魔ペリ(M3318) = 精霊ノーム(M714) + 妖魔ロイチェクタ(M2604)（情報提供ありがとうございます。）</li>
+  <li>精霊サラマンダー(M5348) = 神獣ゲンブ(M3234) + 神獣カマプアア(M2114)</li>
+  <li>神獣ゲンブ(M2296) = 戦士メロンフロスト(M1540)を王国屋で破壊神セイテンタイセイにして + 妖魔アプサラス(M756)</li>
+  <li>神獣カマプアア(M1134) = 聖獣ヘケト(M462) + 天使エンジェル(M672)</li>
+  <li>精霊ウンディーネ(M644) = 妖精ピクシー(M252) + 妖精ペナンガル(M392)</li>
+  <li>精霊シルフ(M1078) = 魔獣ギャリートロット(M364) + 魔獣カンフュール(M714)</li>
+  <li>精霊ノーム(M714) = 地霊ノッカー(M280) + 地霊ノッカー(M434)</li>
+</ul>
+
+<h2 id="book">関連書籍/CD</h2>
+
+<h3>デビルサマナー ソウルハッカーズのすべて 増補改訂版 (アトラスファミ通)</h3>
+
+<p>旧攻略本に3DS用に一部ページ追加したもののようだ。誤植等が直っているかどうかは不明。</p>
+
+<p><a href="http://www.amazon.co.jp/o/ASIN/4047283959/bmk-22/"><span class="amazon_img"><img src="http://ec2.images-amazon.com/images/I/51y4r7dokcL._SL500_AA200_.jpg"/></span><span class="amazon_title"></a></p>
+
+<h3>デビルサマナー ソウルハッカーズ オリジナル・サウンドトラック</h3>
+
+<p>過去に出たCDと同内容と思われる。ライドウの曲も入っていない模様。</p>
+
+<p><a href="http://www.amazon.co.jp/o/ASIN/B008CQCBWO/bmk-22/"><span class="amazon_img"><img src="http://ec2.images-amazon.com/images/I/51wYr1TL-mL._SL500_AA200_.jpg"/></span><span class="amazon_title"></a></p>
+
+<h2 id="cast">キャスト</h2>
+
+<table>
+  <thead>
+    <tr><th>キャラクター名</th><th>声優</th></tr>
+  </thead>
+  <tbody>
+<tr><td>ヒトミ/ネミッサ/ネメッチー</td><td>寿美菜子</td></tr>
+<tr><td>リーダー/サタナエル</td><td>中井和哉</td></tr>
+<tr><td>シックス</td><td>小野大輔</td></tr>
+<tr><td>ランチ</td><td>高木渉</td></tr>
+<tr><td>ユーイチ</td><td>梶祐貴</td></tr>
+<tr><td>レッドマン</td><td>麦人</td></tr>
+<tr><td>ウラベ</td><td>てらそままさき</td></tr>
+<tr><td>フィネガン</td><td>立木文彦</td></tr>
+<tr><td>キャロルJ</td><td>諏訪部純一</td></tr>
+<tr><td>ユダ</td><td>千葉一伸</td></tr>
+<tr><td>ナオミ/マヨーネ</td><td>冬馬由美</td></tr>
+<tr><td>西次官/アザゼル</td><td>佐々木省三</td></tr>
+<tr><td>門倉/スケロク</td><td>二又一成</td></tr>
+<tr><td>レイ・レイホウ</td><td>小松由佳</td></tr>
+<tr><td>ヴィクトル</td><td>銀河万丈</td></tr>
+<tr><td>メアリ/ヒーホー口調</td><td>齋藤千和</td></tr>
+<tr><td>村正</td><td>秋本洋介</td></tr>
+<tr><td>トモコ</td><td>朝倉杏美</td></tr>
+<tr><td>父/アルファ/ベータ/VR銀行員</td><td>佐藤晴男</td></tr>
+<tr><td>母/八角酒店店主</td><td>岡田佐知恵</td></tr>
+<tr><td>パラダイムXカウンター</td><td>園崎未恵</td></tr>
+<tr><td>キャプテン・パラダイム</td><td>高階俊嗣</td></tr>
+<tr><td>Dr.スリル/ロメロ/ビデオマッスル店主</td><td>ふくまつ進紗</td></tr>
+<tr><td>ランチの父</td><td>大林降介</td></tr>
+<tr><td>エリカ</td><td>上田茜</td></tr>
+<tr><td>画廊ラダー店主/生体エナジー協会店主</td><td>石上裕一</td></tr>
+<tr><td>オートマータ店主</td><td>久嶋志帆</td></tr>
+<tr><td>ドラッグギア店主</td><td>坂巻学</td></tr>
+<tr><td>タイ料理サワムラ店主</td><td>中村伸一</td></tr>
+<tr><td>占太夫</td><td>茶風林</td></tr>
+<tr><td>ロク五郎</td><td>納谷六朗</td></tr>
+<tr><td>マダム銀子/葛葉ライドウ/葛葉雷堂/ネメッチー</td><td>杉田智和</td></tr>
+<tr><td>ゴウト童子/業斗童子</td><td>中田譲治</td></tr>
+<tr><td>シド・デイヴィス</td><td>江川大輔</td></tr>
+<tr><td>ブティック店員</td><td>松奇麗</td></tr>
+<tr><td>天海市市民</td><td>鍋井まき子</td></tr>
+<tr><td>天海市市民</td><td>神田みか</td></tr>
+</tbody>
+</table>
+<!--
+<h2>その他</h2>
+
+<ul>
+  <li>宝箱悪魔戦闘時のBGMは、SS版・PS版の没曲</li>
+</ul>
+-->
+
+<h2 id="raidou">ライドウ</h2>
+
+<p>エクストラダンジョン最後のキョウジを倒すと、そのままライドウとの<em>3連戦</em>になる。会話中及び戦闘中のBGMはライドウ本編で使われたBGM。</p>
+
+<h3>軽く攻略</h3>
+
+<p>ドランクスマイルはキョウジ及びライドウ1戦目までは有効。2戦目以降はほぼ全員無効か吸収されてしまう。キョウジ戦を楽に越したいならつけておいてもいい。</p>
+
+<p>敵の速さはほぼ40固定なので、速さが40の悪魔にテトラカーンとマカラカーンを覚えさせ、さらに2体用意するのがベスト。これでも敵のほうが早く行動することもある。主人公も速さを40にした上で将門装備で速さを46まで上げれば主人公だけでもほぼ確実に先制できる。魔力8、速さ40、残りは全て耐力に振るといいだろう。</p>
+
+<p>最後の相手は頻繁にデ・クンダ、デ・カジャを利用してくる。ラクカジャ・タルンダ・マカカジャ・ラクンダ・スクカジャは欲しい。特にラクカジャは1ターンの間に一気に貼れるようにしておかないとあっという間に沈む。</p>
+
+<p>ネクロマは相変わらず有効。ンダ系は継承するのが難しいので、ネクロマ運用前提で弱い悪魔を連れてくるのも有り。（邪気ラクシャーサや神獣ゲンブ等）</p>
+
+<p>ライドウ達のメインダメージソースは物理相性なので、前衛に物理に強い悪魔を配置するか、テトラカーンはある程度優先的に使用したい。フロストファイブは意外と生き残る。ラクカジャも持っているのでオススメ。</p>
+
+<p>勝利後にセーブは無し。解禁要素は無いと思われる。</p>
+
+<p>冷静以外の悪魔が不利になる特技を多く使用してくるので、全悪魔の性格を冷静にしておくこと。</p>
+
+<h2 id="s4">連戦1 BGM：バトル -ライドウ-（超力音源集）</h2>
+
+<table summary="邪鬼ガシャドクロ 能力値">
+  <caption>邪鬼ガシャドクロ（ラ）</caption>
+  <tbody>
+    <tr><th>能力</th><td>LV80 HP3018 MP1168 力27 知26 魔27 耐38 速38 運38</td></tr>
+    <tr><th rowspan="2">特技</th><td>おばちゃんの眼光（光る眼）/読心術（デ・カジャ）</td></tr>
+    <tr><td>石化かみつき</td></tr>
+  </tbody>
+</table>
+<table summary="猛将ヨシツネ 能力値">
+  <caption>猛将ヨシツネ（ラ）</caption>
+  <tbody>
+    <tr><th>能力</th><td>LV80 HP2872 MP1312 力40 知33 魔29 耐32 速32 運28</td></tr>
+    <tr><th rowspan="2">特技</th><td>八そう飛び/大暴れ（全体打撃）</td></tr>
+    <tr><td>十文字斬り（からたけ割り）</td></tr>
+  </tbody>
+</table>
+<table summary="邪神ミシャグジさま 能力値">
+  <caption>邪神ミシャグジさま（ラ）</caption>
+  <tbody>
+    <tr><th>能力</th><td>LV80 HP2832 MP1600 力29 知40 魔40 耐22 速31 運32</td></tr>
+    <tr><th rowspan="2">特技</th><td>セクシャルビンタ（ドルフィンキック）</td></tr>
+    <tr><td>たたり艶電(ねんえき)/発光（サンダーボルト）</td></tr>
+  </tbody>
+</table>
+<table>
+  <colgroup></colgroup>
+  <colgroup class="single" span="7"></colgroup>
+  <tbody>
+    <tr><th rowspan="2">悪魔名</th><th>火炎</th><th>氷結</th><th>電撃</th><th>衝撃</th><th>破魔</th><th>呪殺</th><th>万能</th></tr>
+    <tr><th>精神</th><th>神経</th><th>魔力</th><th>打撃</th><th>斬撃</th><th>技</th><th>銃撃</th></tr>
+<tr><td rowspan="2">邪鬼ガシャドクロ（ラ）</td><td><span class="reflect">反100</span></td><td><span class="reflect">反100</span></td><td>80</td><td>80</td><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td>100</td></tr>
+<tr><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td>80</td><td>80</td><td><span class="invalid">無効</span></td><td>50</td></tr>
+
+<tr><td rowspan="2">猛将ヨシツネ（ラ）</td><td>100</td><td>100</td><td>100</td><td>100</td><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td>100</td></tr>
+<tr><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td>50</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+
+<tr><td rowspan="2">邪神ミシャグジさま（ラ）</td><td>100</td><td>100</td><td>100</td><td>100</td><td><span class="invalid">無効</span></td><td>50</td><td>100</td></tr>
+<tr><td>80</td><td>80</td><td>80</td><td><span class="reflect">反100</span></td><td>100</td><td><span class="reflect">反100</span></td><td>100</td></tr>
+  </tbody>
+</table>
+
+<h2 id="s4">連戦2 BGM：ボスバトル（超力音源集）</h2>
+
+<table summary="妖鬼アズミ 能力値">
+  <caption>妖鬼アズミ（ラ）</caption>
+  <tbody>
+    <tr><th>能力</th><td>LV80 HP3064 MP1328 力31 知31 魔32 耐40 速20 運40</td></tr>
+    <tr><th rowspan="2">特技</th><td>ご飯たべてるん？（メ・ディアラマ）/ヒステリービンタ</td></tr>
+    <tr><td>耐のチャクラ（バリアガード）</td></tr>
+  </tbody>
+</table>
+<table summary="雷堂 能力値">
+  <caption>雷堂</caption>
+  <tbody>
+    <tr><th>能力</th><td>LV99 HP3152 MP1324 力40 知29 魔29 耐23 速31 運22</td></tr>
+    <tr><th rowspan="3">特技</th><td>磁霊金剛壊（モータルジハード）/刃・壊・塵（虚空斬波）</td></tr>
+    <tr><td>修羅回転蹴（雷震王母の蹴り）</td></tr>
+    <tr><td>仲魔叱り（獰猛冷却波・優しさに一喝・狡猾縛りの魅惑）</td></tr>
+  </tbody>
+</table>
+<table summary="邪鬼イッポンダタラ 能力値">
+  <caption>邪鬼イッポンダタラ（ラ）</caption>
+  <tbody>
+    <tr><th>能力</th><td>LV80 HP2776 MP1360 力36 知33 魔32 耐28 速38 運27</td></tr>
+    <tr><th rowspan="2">特技</th><td>タルカジャ/とんかち（八そう跳び）</tbody>
+</table>
+<table summary="凶鳥モー・ショボー 能力値">
+  <caption>凶鳥モー・ショボー（ラ）</caption>
+  <tbody>
+    <tr><th>能力</th><td>LV80 HP2752 MP1344 力36 知29 魔35 耐27 速35 運32</td></tr>
+    <tr><th rowspan="2">特技</th><td>偵察（ガン・ビーム）/小枝拾ったよ（応龍撃破）</td></tr>
+    <tr><td>ファイナルヌード</td></tr>
+  </tbody>
+</table>
+<table summary="ライドウ 能力値">
+  <caption>ライドウ</caption>
+  <tbody>
+    <tr><th>能力</th><td>LV99 HP3104 MP1420 力33 知30 魔34 耐21 速32 運24</td></tr>
+    <tr><th rowspan="3">特技</th><td>強ショット（ヤブサメショット）/脱帽（ハテナ・ボックス）</td></tr>
+    <tr><td>羅刹飛討撃（ギロチンフェイク）</td></tr>
+    <tr><td>磁霊龍牙突（ゴルゴダの突き）</td></tr>
+  </tbody>
+</table>
+<table summary="夜魔モコイ 能力値">
+  <caption>夜魔モコイ（ラ）</caption>
+  <tbody>
+    <tr><th>能力</th><td>LV80 HP2824 MP1344 力33 知32 魔32 耐30 速29 運40</td></tr>
+    <tr><th rowspan="2">特技</th><td>鷹円弾（ヒートウェイブ）/変な踊り（バリアントダンス）</td></tr>
+    <tr><td>ナイスショート</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <colgroup></colgroup>
+  <colgroup class="single" span="7"></colgroup>
+  <tbody>
+    <tr><th rowspan="2">悪魔名</th><th>火炎</th><th>氷結</th><th>電撃</th><th>衝撃</th><th>破魔</th><th>呪殺</th><th>万能</th></tr>
+    <tr><th>精神</th><th>神経</th><th>魔力</th><th>打撃</th><th>斬撃</th><th>技</th><th>銃撃</th></tr>
+<tr><td rowspan="2">妖鬼アズミ（ラ）</td><td><span class="weak">200</span></td><td>10</td><td>10</td><td>50</td><td>10</td><td><span class="invalid">無効</span></td><td>100</td></tr>
+<tr><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td>50</td><td>80</td><td>80</td><td>80</td><td>80</td></tr>
+			<tr><td rowspan="2">雷堂</td><td>100</td><td>100</td><td>100</td><td>100</td><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td>100</td></tr>
+			<tr><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+			<tr><td rowspan="2">邪鬼イッポンダタラ（ラ）</td><td>100</td><td>100</td><td>100</td><td>100</td><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td>100</td></tr>
+			<tr><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+			<tr><td rowspan="2">凶鳥モー・ショボー（ラ）</td><td>100</td><td>100</td><td><span class="absorb">吸100</span></td><td><span class="absorb">吸100</span></td><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td>100</td></tr>
+			<tr><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td>100</td><td>100</td><td><span class="invalid">無効</span></td><td><span class="reflect">反100</span></td></tr>
+			<tr><td rowspan="2">ライドウ</td><td>100</td><td>100</td><td>100</td><td>100</td><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td>100</td></tr>
+			<tr><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+			<tr><td rowspan="2">夜魔モコイ（ラ）</td><td><span class="absorb">吸100</span></td><td><span class="absorb">吸100</span></td><td><span class="absorb">吸100</span></td><td><span class="absorb">吸100</span></td><td><span class="absorb">吸100</span></td><td><span class="absorb">吸100</span></td><td>100</td></tr>
+			<tr><td><span class="absorb">吸100</span></td><td><span class="absorb">吸100</span></td><td><span class="absorb">吸100</span></td><td>10</td><td>10</td><td>10</td><td>10</td></tr>
+  </tbody>
+</table>
+
+<h2 id="s4">連戦3 BGM：デビルサマナー葛葉ライドウ対超力兵団のテーマ（超力音源集）</h2>
+
+<table summary="超力超神ヤソマガツ 能力値">
+  <caption>超力超神ヤソマガツ</caption>
+  <tbody>
+    <tr><th>能力</th><td>LV99 HP65535 MP9999 力39 知38 魔39 耐39 速39 運38</td></tr>
+    <tr><th rowspan="5">特技</th><td>ゆけ超力超神！（バイツァダスト）/牛黄丹（ディアラマ）</td></tr>
+<tr><td>超力撃砕（メガトンプレス）/超力陽弾（マハ・ラギオン）</td></tr>
+<tr><td>先輩の意地（デ・カジャ）/先輩の意地（デ・クンダ）</td></tr>
+<tr><td>超力死界（メギドラオン）/羅刹飛討撃（ギロチンフェイク）</td></tr>
+<tr><td>脱帽（ハテナ・ボックス）</td></tr>
+  </tbody>
+</table>
+<table>
+  <colgroup></colgroup>
+  <colgroup class="single" span="7"></colgroup>
+  <tbody>
+    <tr><th rowspan="2">悪魔名</th><th>火炎</th><th>氷結</th><th>電撃</th><th>衝撃</th><th>破魔</th><th>呪殺</th><th>万能</th></tr>
+    <tr><th>精神</th><th>神経</th><th>魔力</th><th>打撃</th><th>斬撃</th><th>技</th><th>銃撃</th></tr>
+<tr><th rowspan="2">超力超神ヤソマガツ</th><td>100</td><td>50</td><td>50</td><td>50</td><td><span class="reflect">反100</span></td><td><span class="reflect">反100</span></td><td>100</td></tr>
+<tr><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td><span class="invalid">無効</span></td><td>50</td><td>50</td><td>10</td><td>100</td></tr>
+  </tbody>
+</table>
+
+<p>超力超神ヤソマガツ：常に2回行動</p>
+
+<p>マハ・ラギオンの威力が脅威。ラク・カジャMAXでも痛い。主人公は将門装備だと火炎吸収なのでキョウジスペシャルで死ぬ心配が無くなる。速も上がるのでオススメ。ネミッサは火炎吸収装備にしておきたい。ウサミミ・ブラ・ラウリン・エアセエレ辺りで。</p>
+
+<p>仲魔は火炎無効があると心強い。女神アナト、すれ違いしているなら邪神マダ、大天使ルシファフロストなど。サキミタマでHPを999にしておくのを忘れないように。</p>
+
+<p>※追加ボスパラメーターについてはデビルサマナー ソウルハッカーズのすべて 増補改訂版より</p>
+
+<h2 id="bug">バグ</h2>
+
+<p>とりあえず、再現性があるものを</p>
+
+<h3>強くてニューゲーム</h3>
+
+<p>2chハッカーズスレより。このバグの利用は自己責任でお願いします。データ破壊・進行不能等に陥っても保証等は一切致しかねます。</p>
+
+<ol>
+  <li>引き継ぎたいデータを用意する。装備品を全て外しておくことを推奨。</li>
+  <li>次元の回廊で時を戻す。この時、<em>セーブ画面をBボタンでキャンセルする</em>。</li>
+  <li>2周目をウラベのVQが終わるまで進め、アルゴンNSに向かう話になったら芝浜マップでQUITする。</li>
+  <li>引き継ぎたいデータをロードする。</li>
+  <li>バックアッパーを装備して芝浜マップでセーブする。この時、セーブ後突然タイトル画面に戻される。</li>
+  <li>新たにセーブしたデータをロードすると、ゲーム開始直後の初めて芝浜のアジトへ向かう状態になっているので、そのままウラベのVQを終わらせる。</li>
+  <li>VQ後に行動できるようになっていると、引き継ぎたいデータの強さそのままになっている。</li>
+</ol>
+
+<p>このバグを利用すると、下記のデータを引き継ぐ</p>
+
+<ul>
+  <li>主人公（名前とコードネームも）とネミッサのLV及びパラメータ。※1</li>
+  <li>消耗品・装備品※2・インストールソフト・貴重品※3全て</li>
+  <li>銀行の預金額・カジノのコイン</li>
+  <li>悪魔全書・剣全書</li>
+  <li>ネメッチーの召喚可能悪魔一覧</li>
+  <li>アナライズ一覧</li>
+  <li>悪魔ストックの上から6体※4</li>
+  <li>戦闘時のリピートコマンド</li>
+</ul>
+
+<p>※1 ネミッサの所持魔法はディアだけになってしまっているが、LVを上げればLV相当の魔法を一気に覚える。引き継ぎ直前のリピートコマンドはそのままなので、事前に戦闘で満月の女王や戦の魔王やメギドを唱えさせておくと良い。</p>
+
+<p>※2 装備品は初期装備で上書きされてしまう。引き継ぐデータで全て外しておくことを推奨。</p>
+
+<p>※3 ゲームの仕様上、アイテム所持の有無でイベントが進行するように作られておらず、入手した時点でフラグを成立させているので、イベントアイテムは再取得しなければならない。</p>
+
+<p>※4 造魔の名前はジードになってしまう。アルゴンNSクリア後から造魔合体は可能だが、湾岸倉庫イベントは必須になる。</p>
+
+<p>所持品を引き継いで最初から始まるので、各種香を再び入手・保持できるのが利点。1周で得られる香は【力1・知5・魔1・耐3・速1・運4】となる。コードブレイカーに頼らず全パラメーター40を目指すことができる。レベルを下げたい場合は普通に時間を遡るか、魔王ロキのデスペアーナイト等で下げよう。</p>
+
+<h3>マップ上のシンボル消失</h3>
+
+<p>天海バイパスの悪魔退治依頼を受けた後に最初の高速エリアを抜けると、マップ上の主人公の場所を示すシンボルが消失する。実際には高速道路の下側に表示されてしまっているだけなので、そのまま真下に移動すれば問題無くゲームは進行する。</p>
+
+<h3>全書及び召喚時の忠誠度が一部おかしい</h3>
+
+<p>全書呼び出し時の忠誠度は仲魔にしたて（ゲージが中央）と説明されているが、下記悪魔は通常とは異なる忠誠度で召喚される。（ロキは意図的に見えるが、他は恐らく設定ミスだと思われる。）</p>
+
+<table>
+  <thead><th>悪魔名</th><th>忠誠度</th></thead>
+  <tbody>
+    <tr><td>魔神オーディン(ネ)</td><td>5.5</td></tr>
+    <tr><td>秘神全て</td><td>5.5</td></tr>
+    <tr><td>魔獣ネコマタ(ネ)</td><td>5.5</td></tr>
+    <tr><td>堕天使全て</td><td>4.5</td></tr>
+    <tr><td>魔王ロキ(ネ)</td><td>1.5</td></tr>
+  </tbody>
+</table>
+
+<h3>一部範囲技が当たらない</h3>
+
+<p>敵の初期配置が前列2体で中央に敵が存在しないような時、中心拡散の技が当たらない。（レオン自工のカタキラウワ等）</p>
+
+<h3>宝箱消失（再現性無し）</h3>
+
+<p>宝箱を開けても中身が入っているはずなのに空になっているが、実際にはアイテム欄に入っている。</p>
+
+<h3>魔法エフェクトでフリーズ（再現性無し）</h3>
+
+<p>フリーズしない人は全くフリーズせず、する人はそこそこする<em>らしい</em>。バックアッパーによるセーブが高速なので、常備推奨。</p>
+
+<h2 id="misc">その他</h2>
+
+<ul>
+  <li>悪魔全書はすれ違い悪魔を除いて完成させると100%だが、すれ違い悪魔を仲魔にしてもカウントされていき、最終的には110%になる。</li>
+  <li>悪魔全書はデビダスで確認できる悪魔に加えて、戦士6体と造魔各4形態が登録できる。</li>
+  <li>造魔を悪魔全書から呼ぶ場合、事前に全書メニューから外すなどしなければならない。</li>
+  <li>剣全書から剣を呼び出す場合も同様で、事前に捨てる必要がある。</li>
+  <li>追加悪魔をフィネガンかシド戦に連れて行くと、1ランク下の悪魔が代わりに出てくる。</li>
+  <li>（すれ違い前提）ルシファフロストの継承タイプは万能なので、メギドラオンを継承したメタトロンを精霊ランクアップさせるだけで簡単にメギドラオンを継承させることができる。相性もガンと技に弱いだけなので、かなり死ににくい。</li>
+  <li>（すれ違い前提）邪神パレス+悪霊ガロットで、テトラカーン・マカラカーン持ちで速と運が40の死神ＤＢ・バスターズになる。</li>
+</ul>
+	</dd>
+</dl>
+
+<ul id="footer">
+	<li><a tabindex="6" accesskey="6" href="./">メニュー</a></li>
+	<li><a tabindex="7" accesskey="7" href="#top">ページの上部へ</a></li>
+</ul>
+
+<p class="script">
+<script type="text/javascript" src="../../script/js/stats.js" charset="UTF-8"></script>
+</p>
+<noscript><p class="script"><img src="http://zwei.bmky.net/x/stats/php-stats.php" width="0" height="0" alt="an" /></p></noscript>
+
+</body>
+</html>

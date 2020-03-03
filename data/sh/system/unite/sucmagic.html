@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />	
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<link rev="made" href="mailto:suzusaki_es@hotmail.com" />
+	<link rel="StyleSheet" href="../../style/sh.css" />
+	<link rel="home top contents index" href="../../" />
+	<link rel="up" href="../" />
+	<link rel="help" href="../../about.html" />
+	<link rel="bookmark" href="../../#bookmark" />
+	<link rel="first" href="unite.html" />
+	<link rel="last" href="hero.html" />
+	<link rel="prev" href="special.html" />
+	<link rel="next" href="accident.html" />
+	<script type="text/javascript" src="../../style/xmlhttprequest.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="../../style/common.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="../../style/navi.js" charset="UTF-8"></script>
+	<title>ソウルハッカーズ &raquo; 魔法継承</title>
+</head>
+<body>
+
+<ul id="top">
+	<li><a tabindex="1" accesskey="1" href="../../">トップ</a></li>
+	<li><a tabindex="2" accesskey="2" href="../../guide/">シナリオ攻略</a></li>
+	<li><a tabindex="3" accesskey="3" href="../" class="here">システム</a></li>
+	<li><a tabindex="4" accesskey="4" href="../../data/">データ</a></li>
+	<li><a tabindex="5" accesskey="5" href="../../text/">テキスト</a></li>
+	<li>
+		<form method="get" action="http://www.google.co.jp/search"><p>
+			<input type="radio" class="radio" name="sitesearch" value="" id="www" /><label for="www">www</label>
+			<input type="radio" class="radio" name="sitesearch" value="bmky.net/data/sh/" id="site" checked="checked" /><label for="site">Hackers</label>
+			<input type="text" class="text" name="q" size="12" maxlength="128" value="" />
+			<input type="submit" class="submit" name="btnG" value="検索" />
+			<input type="hidden" name="hl" value="ja" />
+			<input type="hidden" name="ie" value="UTF-8" />
+		</p></form>
+	</li>
+</ul>
+
+<h1>魔法継承</h1>
+
+<div id="wrapper">
+
+<dl id="content">
+	<dt>魔法継承とは？</dt>
+	<dd>
+	<h2 id="s1">魔法継承とは？</h2>
+	<p>悪魔合体時に、材料の悪魔の所持している魔法を一定条件下で完成後の悪魔へ引き継ぐことができる。</p>
+	<p>これにより、会話で仲魔にした悪魔よりも合体で作成した悪魔のほうが戦力としては優秀となる。つまり、所持特技と魔法が乏しい悪魔でも、うまく継承させることで強力な悪魔へと変化させることができるようになる。</p>
+	</dd>
+	<dt>継承の種類</dt>
+	<dd>
+	<h2 id="s2">継承の種類</h2>
+	<p>魔法継承には、タイプ別継承と業魔殿継承の二通りが存在する。</p>
+	<h3>タイプ別継承</h3>
+	<p>各悪魔に設定されている継承タイプに応じた魔法を継承する。例えば火炎ならばアギ系の魔法を、呪殺ならムド系の魔法を、強力な魔法から優先して継承していく。この継承はCOMP合体と業魔殿合体時に適用される。</p>
+	<h3>業魔殿継承</h3>
+	<p>業魔殿で合体した時のみ適用される継承で、継承タイプに関係なく魔法を継承していく。この継承は<em>COMP合体時には適用されない</em>。</p>
+	</dd>
+	<dt>継承の手順</dt>
+	<dd>
+	<h2 id="s3">継承の手順</h2>
+	<ol>
+		<li>種族優先順位が高い悪魔の所持魔法を走査する</li>
+		<li>継承タイプに適した魔法があるなら継承する</li>
+		<li>スキル欄が6個埋まるか、継承する魔法が無くなるまで続ける</li>
+		<li>業魔殿で合体しているなら、同じ要領で業魔殿継承を行う</li>
+		<li>スキル欄が6個埋まるか、継承する魔法が無くなるまで続ける</li>
+		<li>この時点でスキル欄が埋まっていないなら、次の順位の悪魔に移る</li>
+	</ol>
+	</dd>
+	<dt>継承タイプ別魔法順位</dt>
+	<dd>
+	<h2 id="s4">継承タイプ別魔法順位</h2>
+	<table summary="魔法優先順位">
+		<colgroup><col class="num" /></colgroup>
+		<tbody>
+			<tr><th>順位</th><th>万能</th><th>火炎</th><th>氷結</th><th>電撃</th><th>衝撃</th></tr>
+			<tr><td>1</td><td>メギドラオン</td><td>マハ・ラギオン</td><td>マハ・ブフーラ</td><td>マハ・ジオンガ</td><td>マハ・ザンマ</td></tr>
+			<tr><td>2</td><td>メギドラ</td><td>マハ・ラギ</td><td>マハ・ブフ</td><td>マハ・ジオ</td><td>マハ・ザン</td></tr>
+			<tr><td>3</td><td>メギド</td><td>アギラオ</td><td>ブフーラ</td><td>ジオンガ</td><td>ザンマ</td></tr>
+			<tr><td>4</td><td></td><td>アギ</td><td>ブフ</td><td>ジオ</td><td>ザン</td></tr>
+		</tbody>
+	</table>
+	<table summary="魔法優先順位">
+		<colgroup><col class="num" /></colgroup>
+		<tbody>
+			<tr><th>順位</th><th>呪殺</th><th>破魔</th><th>回復A</th><th>回復B</th></tr>
+			<tr><td>1</td><td>ムドオン</td><td>ハマオン</td><td>メ・ディアラハン</td><td>タル・カジャ</td><td></td></tr>
+			<tr><td>2</td><td>ムドラ</td><td>ハンマ</td><td>メ・ディアラマ</td><td>ラク・カジャ</td><td></td></tr>
+			<tr><td>3</td><td>ムド</td><td>ハマ</td><td>メ・ディア</td><td>スク・カジャ</td><td></td></tr>
+			<tr><td>4</td><td></td><td></td><td>ディアラハン</td><td>マカ・カジャ</td><td></td></tr>
+			<tr><td>5</td><td></td><td></td><td>ディアラマ</td><td>デ・クンダ</td><td></td></tr>
+			<tr><td>6</td><td></td><td></td><td>ディア</td><td>タル・ンダ</td><td></td></tr>
+			<tr><td>7</td><td></td><td></td><td>サマリカーム</td><td>ラク・ンダ</td><td></td></tr>
+			<tr><td>8</td><td></td><td></td><td>リカーム</td><td>スク・ンダ</td><td></td></tr>
+			<tr><td>9</td><td></td><td></td><td>ポズムディ</td><td>デ・カジャ</td><td></td></tr>
+			<tr><td>10</td><td></td><td></td><td>ペトラディ</td><td></td><td></td></tr>
+			<tr><td>11</td><td></td><td></td><td>メ・パトラ</td><td></td><td></td></tr>
+			<tr><td>12</td><td></td><td></td><td>パトラ</td><td></td><td></td></tr>
+			<tr><td>13</td><td></td><td></td><td>パララディ</td><td></td><td></td></tr>
+			<tr><td>14</td><td></td><td></td><td>ボムディ</td><td></td><td></td></tr>
+			<tr><td>15</td><td></td><td></td><td>チャムディ</td><td></td><td></td></tr>
+			<tr><td>16</td><td></td><td></td><td>マークディ</td><td></td><td></td></tr>
+		</tbody>
+	</table>
+	<table summary="魔法優先順位">
+		<colgroup><col class="num" /></colgroup>
+		<tbody>
+			<tr><th>順位</th><th>魔女</th><th>打撃</th><th>温度</th><th>暗黒</th></tr>
+			<tr><td>1</td><td>エストマ</td><td>テトラジャ</td><td>マハ・ラギオン</td><td>ハマオン</td><td></td></tr>
+			<tr><td>2</td><td>リベラマ</td><td>テトラカーン</td><td>マハ・ブフーラ</td><td>ムドオン</td><td></td></tr>
+			<tr><td>3</td><td>リフトマ</td><td>ムドラ</td><td>マハ・ジオンガ</td><td>ハンマ</td><td></td></tr>
+			<tr><td>4</td><td>マッパー</td><td>ムド</td><td>マハ・ラギ</td><td>ムドラ</td><td></td></tr>
+			<tr><td>5</td><td>マカラカーン</td><td></td><td>マハ・ブフ</td><td>ハマ</td><td></td></tr>
+			<tr><td>6</td><td></td><td></td><td>マハ・ジオ</td><td>ムド</td><td></td></tr>
+			<tr><td>7</td><td></td><td></td><td>アギラオ</td><td></td><td></td></tr>
+			<tr><td>8</td><td></td><td></td><td>ブフーラ</td><td></td><td></td></tr>
+			<tr><td>9</td><td></td><td></td><td>ジオンガ</td><td></td><td></td></tr>
+			<tr><td>10</td><td></td><td></td><td>アギ</td><td></td><td></td></tr>
+			<tr><td>11</td><td></td><td></td><td>ブフ</td><td></td><td></td></tr>
+			<tr><td>12</td><td></td><td></td><td>ジオ</td><td></td><td></td></tr>
+		</tbody>
+	</table>
+	</dd>
+	<dt>業魔殿継承魔法順位</dt>
+	<dd>
+	<h2 id="s5">業魔殿継承魔法順位</h2>
+	<table summary="魔法優先順位">
+		<colgroup>
+			<col class="num" />
+			<col />
+			<col class="num" />
+			<col />
+			<col class="num" />
+			<col />
+		</colgroup>
+		<tbody>
+			<tr><th>順位</th><th>名称</th><th>順位</th><th>名称</th><th>順位</th><th>名称</th></tr>
+			<tr><td>1</td><td>ディア</td><td>10</td><td>パララディ</td><td>19</td><td>ラク・カジャ</td></tr>
+			<tr><td>2</td><td>ディアラマ</td><td>11</td><td>パトラ</td><td>20</td><td>スク・カジャ</td></tr>
+			<tr><td>3</td><td>ディアラハン</td><td>12</td><td>メ・パトラ</td><td>21</td><td>マカ・カジャ</td></tr>
+			<tr><td>4</td><td>メ・ディア</td><td>13</td><td>ペトラディ</td><td>22</td><td>デ・クンダ</td></tr>
+			<tr><td>5</td><td>メ・ディアラマ</td><td>14</td><td>ポズムディ</td><td>23</td><td>テトラジャ</td></tr>
+			<tr><td>6</td><td>メ・ディアラハン</td><td>15</td><td>リカーム</td><td>24</td><td>テトラカーン</td></tr>
+			<tr><td>7</td><td>マークディ</td><td>16</td><td>サマリカーム</td><td>25</td><td>マカラカーン</td></tr>
+			<tr><td>8</td><td>チャムディ</td><td>17</td><td>リカームドラ</td><td></td><td></td></tr>
+			<tr><td>9</td><td>ボムディ</td><td>18</td><td>タル・カジャ</td><td></td><td></td></tr>
+		</tbody>
+	</table>
+	</dd>
+</dl>
+
+<div id="sidebar">
+	<ul id="navi">
+		<li><a href="#s1">魔法継承とは？</a></li>
+		<li><a href="#s2">継承の種類</a></li>
+		<li><a href="#s3">継承の手順</a></li>
+		<li><a href="#s4">継承タイプ別魔法順位</a></li>
+		<li><a href="#s5">業魔殿継承魔法順位</a></li>
+	</ul>
+	<ul>
+		<li><a href="../battle/human.html">戦闘</a></li>
+		<li>合体
+			<ul>
+				<li><a href="unite.html">悪魔合体</a></li>
+				<li><a href="spirits.html">精霊合体</a></li>
+				<li><a href="mitama.html">御霊合体</a></li>
+				<li><a href="special.html">特殊合体</a></li>
+				<li>魔法継承</li>
+				<li><a href="accident.html">合体事故</a></li>
+				<li><a href="sword.html">剣合体</a></li>
+				<li><a href="mashou.html">魔晶変化</a></li>
+				<li><a href="god.html">威霊・狂神合体</a></li>
+				<li><a href="hero.html">英雄・猛将合体</a></li>
+			</ul>
+		</li>
+		<li><a href="../zouma/zouma.html">造魔</a></li>
+	</ul>
+</div><!-- sidebar -->
+
+<ul id="step">
+	<li class="prev"><a href="special.html">&laquo; 特殊合体</a></li>
+	<li class="next"><a href="accident.html">合体事故 &raquo;</a></li>
+</ul>
+
+</div><!-- wrapper -->
+
+<ul id="footer">
+	<li><a tabindex="6" accesskey="6" href="../">メニュー</a></li>
+	<li><a tabindex="7" accesskey="7" href="#top">ページの上部へ</a></li>
+</ul>
+
+<p class="script">
+<script type="text/javascript" src="../../../../script/js/stats.js" charset="UTF-8"></script>
+</p>
+<noscript><p class="script"><img src="http://zwei.bmky.net/x/stats/php-stats.php" width="0" height="0" alt="an" /></p></noscript>
+
+</body>
+</html>

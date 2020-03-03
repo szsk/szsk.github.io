@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />	
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<link rev="made" href="mailto:suzusaki_es@hotmail.com" />
+	<link rel="StyleSheet" href="../../style/sh.css" />
+	<link rel="home top contents index" href="../../" />
+	<link rel="up" href="../" />
+	<link rel="help" href="../../about.html" />
+	<link rel="bookmark" href="../../#bookmark" />
+	<link rel="first" href="unite.html" />
+	<link rel="last" href="hero.html" />
+	<link rel="prev" href="accident.html" />
+	<link rel="next" href="mashou.html" />
+	<script type="text/javascript" src="../../style/xmlhttprequest.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="../../style/common.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="../../style/navi.js" charset="UTF-8"></script>
+	<title>ソウルハッカーズ &raquo; 剣合体</title>
+</head>
+<body>
+
+<ul id="top">
+	<li><a tabindex="1" accesskey="1" href="../../">トップ</a></li>
+	<li><a tabindex="2" accesskey="2" href="../../guide/">シナリオ攻略</a></li>
+	<li><a tabindex="3" accesskey="3" href="../" class="here">システム</a></li>
+	<li><a tabindex="4" accesskey="4" href="../../data/">データ</a></li>
+	<li><a tabindex="5" accesskey="5" href="../../text/">テキスト</a></li>
+	<li>
+		<form method="get" action="http://www.google.co.jp/search"><p>
+			<input type="radio" class="radio" name="sitesearch" value="" id="www" /><label for="www">www</label>
+			<input type="radio" class="radio" name="sitesearch" value="bmky.net/data/sh/" id="site" checked="checked" /><label for="site">Hackers</label>
+			<input type="text" class="text" name="q" size="12" maxlength="128" value="" />
+			<input type="submit" class="submit" name="btnG" value="検索" />
+			<input type="hidden" name="hl" value="ja" />
+			<input type="hidden" name="ie" value="UTF-8" />
+		</p></form>
+	</li>
+</ul>
+
+<h1>剣合体</h1>
+
+<div id="wrapper">
+
+<dl id="content">
+	<dt>合体剣とは？</dt>
+	<dd>
+	<h2 id="s1">合体剣とは？</h2>
+	<p>レオン自工クリア後にマダム銀子から譲り受ける「無銘の刀」を悪魔と合体させることで強力な武器へと変化させることができる。</p>
+	<p>合体させる悪魔のLVと力によって攻撃力が変化するので、強い悪魔を合体させればそれだけ強力な剣が出来上がる。勿論御霊強化も反映される。</p>
+	<p>なお、無銘の刀や合体剣を手放した場合はビデオマッスルで購入することができる。</p>
+	</dd>
+	<dt>剣の種類</dt>
+	<dd>
+	<h2 id="s2">剣の種類</h2>
+	<p>合体させる悪魔の魔法継承タイプで分別される。</p>
+	<table summary="合体剣の種類" >
+		<colgroup>
+			<col />
+			<col class="effect" />
+			<col class="effect" />
+			<col />
+		</colgroup>
+		<thead>
+			<tr><th>完成品</th><th>性別</th><th>追加BAD</th><th>継承タイプ</th></tr>
+		</thead>
+		<tbody>
+			<tr><td>七星村正</td><td>男</td><td></td><td>打撃、万能、破魔<br />回復A、温度、暗黒</td></tr>
+			<tr><td>七星不知火村正</td><td>男</td><td></td><td>火炎</td></tr>
+			<tr><td>七星氷刃村正</td><td>男</td><td>凍結</td><td>氷結</td></tr>
+			<tr><td>七星電光村正</td><td>男</td><td>感電</td><td>電撃</td></tr>
+			<tr><td>七星破衝村正</td><td>男</td><td></td><td>衝撃</td></tr>
+			<tr><td>七星毒刃村正</td><td>女</td><td>毒</td><td>呪殺</td></tr>
+			<tr><td>七星夢想村正</td><td>女</td><td>睡眠</td><td>回復B</td></tr>
+			<tr><td>七星魔映村正</td><td>女</td><td>魅了</td><td>魔女</td></tr>
+		</tbody>
+	</table>
+	</dd>
+	<dt>剣の能力</dt>
+	<dd>
+	<h2 id="s3">剣の能力</h2>
+	<p>攻撃力にはLVと力、命中力にはLVと速さと運が関係する。</p>
+	<ul>
+		<li>攻撃力 = LV + ( 力 * 2 )</li>
+		<li>命中力 = ( LV * 0.8 ) + ( 速さ * 0.8 ) + ( 運 * 0.4 )</li>
+	</ul>
+	<p>但し、剣の種類によって攻撃力・命中力共に以下の割合で修正を受ける。</p>
+	<ul>
+		<li>氷刃・電光 = 0.95</li>
+		<li>毒刃・夢想・魔映 = 0.9</li>
+	</ul>
+	<p>* 計算は全て切り捨て</p>
+	</dd>
+	<dt>特殊合体</dt>
+	<dd>
+	<h2 id="s4">特殊合体</h2>
+	<p>無銘の刀と特定の悪魔と合体させることで、通常の法則を無視してあらかじめ設定された武器になる。この場合は悪魔の能力は一切、合体後の武器に反映されない。</p>
+	<table summary="特殊合体剣" >
+		<colgroup>
+			<col />
+			<col />
+			<col class="effect" />
+			<col class="num" />
+			<col class="num" />
+			<col />
+		</colgroup>
+		<thead>
+			<tr><th>完成品</th><th>悪魔名</th><th>性別</th><th>攻撃</th><th>命中</th><th>範囲</th></tr>
+		</thead>
+		<tbody>
+			<tr><td><a href="../../data/item/sword.html#I75">ゲイボルグ</a></td><td><a href="../../data/devil/02.html#D12">女神スカアハ</a></td><td>男</td><td>56</td><td>45</td><td>前単貫通</td></tr>
+			<tr><td><a href="../../data/item/sword.html#I76">如意棒</a></td><td><a href="../../data/devil/06.html#D30">破壊神セイテンタイセイ</a></td><td>男</td><td>64</td><td>59</td><td>前列左から</td></tr>
+			<tr><td><a href="../../data/item/sword.html#I77">フツノミタマ</a></td><td><a href="../../data/devil/08.html#D42">鬼神フツヌシ</a></td><td>両</td><td>82</td><td>58</td><td>前単</td></tr>
+			<tr><td><a href="../../data/item/sword.html#I78">クサナギの剣</a></td><td><a href="../../data/devil/20.html#D126">龍王ヤマタノオロチ</a></td><td>男</td><td>90</td><td>99</td><td>前単</td></tr>
+			<tr><td><a href="../../data/item/sword.html#I79">グングニル</a></td><td><a href="../../data/devil/01.html#D3">魔神オーディン</a></td><td>女</td><td>124</td><td>118</td><td>前単貫通</td></tr>
+			<tr><td><a href="../../data/item/sword.html#I80">スダルサナ</a></td><td><a href="../../data/devil/01.html#D1">魔神ヴィシュヌ</a></td><td>女</td><td>120</td><td>122</td><td>全体</td></tr>
+			<tr><td><a href="../../data/item/sword.html#I81">ピナーカ</a></td><td><a href="../../data/devil/06.html#D26">破壊神シヴァ</a></td><td>男</td><td>190</td><td>154</td><td>前単貫通</td></tr>
+		</tbody>
+	</table>
+	</dd>
+	<dt>最強の村正</dt>
+	<dd>
+	<h2 id="s5">最強の村正</h2>
+	<p>攻撃力優先、御霊で力・速・運を限界まで上昇させた場合の、各種最強状態の村正。</p>
+	<table summary="最強の村正" >
+		<colgroup>
+			<col />
+			<col />
+			<col class="num" />
+			<col class="num" />
+		</colgroup>
+		<thead>
+			<tr><th>種類</th><th>悪魔名</th><th>攻撃</th><th>命中</th></tr>
+		</thead>
+		<tbody>
+			<tr><td>七星村正</td><td><a href="../../data/devil/04.html#D18">威霊アリラト</a></td><td>162</td><td>108</td></tr>
+			<tr><td>七星不知火村正</td><td><a href="../../data/devil/05.html#D22">狂神ディオニュソス</a></td><td>154</td><td>98</td></tr>
+			<tr><td>七星氷刃村正</td><td><a href="../../data/devil/15.html#D94">魔王ロキ</a></td><td>132</td><td>72</td></tr>
+			<tr><td>七星電光村正</td><td><a href="../../data/devil/16.html#D98">大天使スラオシャ</a></td><td>145</td><td>95</td></tr>
+			<tr><td>七星破衝村正</td><td><a href="../../data/devil/19.html#D121">龍神グクマッツ</a></td><td>142</td><td>81</td></tr>
+			<tr><td>七星毒刃村正</td><td><a href="../../data/devil/21.html#D134">邪龍ムシュフシュ</a></td><td>106</td><td>61</td></tr>
+			<tr><td>七星夢想村正</td><td><a href="../../data/devil/04.html#D19">威霊ハチマン</a></td><td>122</td><td>89</td></tr>
+			<tr><td>七星魔映村正</td><td><a href="../../data/devil/05.html#D24">狂神アラミサキ</a></td><td>118</td><td>63</td></tr>
+		</tbody>
+	</table>
+	</dd>
+</dl>
+
+<div id="sidebar">
+	<ul id="navi">
+		<li><a href="#s1">合体剣とは？</a></li>
+		<li><a href="#s2">剣の種類</a></li>
+		<li><a href="#s3">剣の能力</a></li>
+		<li><a href="#s4">特殊合体</a></li>
+		<li><a href="#s5">最強の村正</a></li>
+	</ul>
+	<ul>
+		<li><a href="../battle/human.html">戦闘</a></li>
+		<li>合体
+			<ul>
+				<li><a href="unite.html">悪魔合体</a></li>
+				<li><a href="spirits.html">精霊合体</a></li>
+				<li><a href="mitama.html">御霊合体</a></li>
+				<li><a href="special.html">特殊合体</a></li>
+				<li><a href="sucmagic.html">魔法継承</a></li>
+				<li><a href="accident.html">合体事故</a></li>
+				<li>剣合体</li>
+				<li><a href="mashou.html">魔晶変化</a></li>
+				<li><a href="god.html">威霊・狂神合体</a></li>
+				<li><a href="hero.html">英雄・猛将合体</a></li>
+			</ul>
+		</li>
+		<li><a href="../zouma/zouma.html">造魔</a></li>
+	</ul>
+</div><!-- sidebar -->
+
+<ul id="step">
+	<li class="prev"><a href="accident.html">&laquo; 合体事故</a></li>
+	<li class="next"><a href="mashou.html">魔晶変化 &raquo;</a></li>
+</ul>
+
+</div><!-- wrapper -->
+
+<ul id="footer">
+	<li><a tabindex="6" accesskey="6" href="../">メニュー</a></li>
+	<li><a tabindex="7" accesskey="7" href="#top">ページの上部へ</a></li>
+</ul>
+
+<p class="script">
+<script type="text/javascript" src="../../../../script/js/stats.js" charset="UTF-8"></script>
+</p>
+<noscript><p class="script"><img src="http://zwei.bmky.net/x/stats/php-stats.php" width="0" height="0" alt="an" /></p></noscript>
+
+</body>
+</html>

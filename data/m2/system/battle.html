@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<link rev="made" href="mailto:suzusaki_es@hotmail.com" />
+	<link rel="Index" href="../index.html" />
+	<link rel="Start" href="../index.html" />
+	<link rel="Contents" href="../index.html" />
+	<link rel="Bookmark" href="../other/link.html" />
+	<link rel="StyleSheet" href="../style/m2.css" />
+	<title>戦闘</title>
+</head>
+<body>
+
+<h1 id="top">戦闘</h1>
+
+<div id="wrapper">
+
+<div id="content">
+
+<h2 id="s1">基本</h2>
+<dl>
+	<dt>通常攻撃</dt>
+	<dd>
+	<p>攻撃を仕掛ける側（攻撃側）から攻撃し、仕掛けられた側（防御側）は通常攻撃の射程内に仕攻撃側が収まっているなら攻撃することができる。</p>
+	</dd>
+	<dt>2回攻撃</dt>
+	<dd>
+	<p>攻撃側、防御側の双方とも、相手の速さとの差が6以上あるのなら、攻撃した後に再び攻撃することが出来る。</p>
+	</dd>
+	<dt>必殺</dt>
+	<dd>
+	<p>通常攻撃時、必殺のパラメータの数値そのままの確率で必殺、俗に言う会心の一撃が発生し、与えるダメージが2倍になる。満月時になると確率に+20%の修正を受ける。</p>
+	</dd>
+	<dt>魔法＆特技</dt>
+	<dd>
+	<p>魔法または特技を使用した場合、例え攻撃魔法だろうと反撃は一切発生しない。</p>
+	</dd>
+	<dt>経験値</dt>
+	<dd>
+	<p>通常攻撃、魔法、特技にかかわらず、相手に1以上のダメージを与えた場合は、悪魔に設定されている経験値の10分の1を入手することができる。これは累積するので、2回攻撃によって2回ともダメージを与えた場合は前述の2倍の経験値を得ることが出来る。同様に、魔法や特技で複数目標にダメージを与えた場合も累積する。例外として、必殺が発生してダメージを与えた場合も経験値を2倍取得することができる。</p>
+	<p>相手のHPを0にした場合は設定されている経験値+（レベル差×-5）を得ることができる。これは、相手のLVが自分を下回っていた場合であり、その逆の状態では取得経験値は悪魔の設定値と同値である。相手のレベルにはRANKも含まれている為、LV21、RANK99の夜魔リリムは、LV120として扱う。これはこちらの仲魔も同様である。</p>
+	<p>取得経験値の最低値は、倒した倒さないに関わらず一律5。最高値は99である。</p>
+	</dd>
+</dl>
+
+<h2 id="s2">ダメージ算出</h2>
+<dl>
+	<dt>通常攻撃</dt>
+	<dd>
+	<p>（攻撃力 + 特別武器効果修正 - 防御力） * 対地対空修正 * 必殺修正 = 与えるダメージ</p>
+	</dd>
+	<dt>魔法＆特技</dt>
+	<dd>
+	<p>（使用威力 + 魔法威力 - 魔法防御力） * 魔法相性 = 与えるダメージ</p>
+	</dd>
+	<dt>回復魔法</dt>
+	<dd>
+	<p></p>
+	</dd>
+	<dt>破魔・呪殺</dt>
+	<dd>
+	<p>破魔相性の魔法や特技は、邪霊対象にのみ、最大HPと同値のダメージを与える。</p>
+	<p>呪殺相性の魔法や特技は、種族間に設定されている確率のみで命中判定を行い、命中した場合にそのユニットを即死させる。これはいかなる方法を用いても軽減、回避することはできない。</p>
+	</dd>
+</dl>
+
+<h2 id="s3">状態異常</h2>
+<dl>
+	<dd>
+	<p>全てのステータス異常は、最悪でも3回ターンが回ればターン開始時に自然回復する。</p>
+	</dd>
+	<dt>POISON</dt>
+	<dd>
+	<p>ターン開始時に最大HPの8分の1のHPダメージを受ける</p>
+	</dd>
+	<dt>CLOSE</dt>
+	<dd>
+	<p>魔法・特技の使用が不可能になる</p>
+	</dd>
+	<dt>PALYZ</dt>
+	<dd>
+	<p>移動不可能になる</p>
+	</dd>
+	<dt>SLEEP</dt>
+	<dd>
+	<p>移動・行動共に不可能になるが、通常攻撃を受けると即座に回復</p>
+	</dd>
+	<dt>BIND</dt>
+	<dd>
+	<p>移動・行動共に不可能になり、ターン開始時に最大MPの8分の1のMPダメージ</p>
+	</dd>
+	<dt>STONE</dt>
+	<dd>
+	<p>移動・行動共に不可能になる</p>
+	</dd>
+</dl>
+
+<h2 id="s4">アイテム取得</h2>
+<dl>
+	<dd>
+	<p>悪魔を倒した際にアイテムを落とすことがある。アイテムを落とす確率は、倒したユニットと悪魔の運のパラメータの差で決定する。</p>
+	<p>さらに落とすアイテムには最高で2種類設定されているが、どちらを落とすかはさらに確率が設定されており、こちらは完全にプレイヤーの運で左右されると思われる。</p>
+	</dd>
+</dl>
+
+</div><!-- /content -->
+
+<dl id="sidebar">
+	<dt>REMIX</dt>
+	<dd><a href="#s1">基本</a></dd>
+	<dd><a href="#s2">ダメージ算出</a></dd>
+	<dd><a href="#s3">状態異常</a></dd>
+	<dd><a href="#s4">アイテム取得</a></dd>
+	<dt>SYSTEM</dt>
+	<dd><a href="battle.html">戦闘</a></dd>
+	<dd><a href="devil.html">悪魔</a></dd>
+	<dd><a href="remix.html">合体</a></dd>
+	<dd><a href="event.html">特殊イベント</a></dd>
+</dl><!-- /sidebar -->
+
+</div><!-- /wrapper -->
+
+<ul id="footer">
+	<li><a href="#top">PAGETOP</a></li>
+	<li><a href="../">MENU</a></li>
+</ul>
+
+<div id="script">
+<script type="text/javascript" src="../../../script/js/stats.js" charset="UTF-8"></script>
+<noscript><p><img src="http://zwei.bmky.net/x/stats/php-stats.php" width="0" height="0" alt="an" /></p></noscript>
+</div>
+
+</body>
+</html>

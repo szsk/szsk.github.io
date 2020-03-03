@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />	
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<link rev="made" href="mailto:suzusaki_es@hotmail.com" />
+	<link rel="StyleSheet" href="../../style/sh.css" />
+	<link rel="home top contents index" href="../../" />
+	<link rel="up" href="../" />
+	<link rel="help" href="../../about.html" />
+	<link rel="bookmark" href="../../#bookmark" />
+	<script type="text/javascript" src="../../style/xmlhttprequest.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="../../style/common.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="../../style/navi.js" charset="UTF-8"></script>
+	<title>ソウルハッカーズ &raquo; 月齢の影響</title>
+</head>
+<body>
+
+<ul id="top">
+	<li><a tabindex="1" accesskey="1" href="../../">トップ</a></li>
+	<li><a tabindex="2" accesskey="2" href="../../guide/">シナリオ攻略</a></li>
+	<li><a tabindex="3" accesskey="3" href="../" class="here">システム</a></li>
+	<li><a tabindex="4" accesskey="4" href="../../data/">データ</a></li>
+	<li><a tabindex="5" accesskey="5" href="../../text/">テキスト</a></li>
+	<li>
+		<form method="get" action="http://www.google.co.jp/search"><p>
+			<input type="radio" class="radio" name="sitesearch" value="" id="www" /><label for="www">www</label>
+			<input type="radio" class="radio" name="sitesearch" value="bmky.net/data/sh/" id="site" checked="checked" /><label for="site">Hackers</label>
+			<input type="text" class="text" name="q" size="12" maxlength="128" value="" />
+			<input type="submit" class="submit" name="btnG" value="検索" />
+			<input type="hidden" name="hl" value="ja" />
+			<input type="hidden" name="ie" value="UTF-8" />
+		</p></form>
+	</li>
+</ul>
+
+<h1>月齢の影響</h1>
+
+<div id="wrapper">
+
+<dl id="content">
+	<dt>戦闘能力の変化</dt>
+	<dd>
+	<h2 id="s1">戦闘能力の変化</h2>
+	<p>全ての悪魔には月齢による戦闘能力の変化が設定されており、月齢次第では通常の半分から4倍まで能力に変化を及ぼす。</p>
+	<p>具体的には、物理魔法問わず与えるダメージに直接修正をかける。詳しくはパターン表参照。</p>
+	</dd>
+	<dt>変化パターン</dt>
+	<dd>
+	<h2 id="s2">変化パターン</h2>
+	<p>変化パターンは全部で13種類存在する。0を100%として、-8なら50%、8なら150%、16なら200%となる。</p>
+	<table summary="月齢の影響">
+		<colgroup class="single" span="10"></colgroup>
+		<thead>
+			<tr><th></th><th>NEW</th><th>1/8</th><th>2/8</th><th>3/8</th><th>HALF</th><th>5/8</th><th>6/8</th><th>7/8</th><th>FULL</th></tr>
+		</thead>
+		<tbody>
+			<tr><th>1</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+			<tr><th>2</th><td>-4</td><td>-4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>4</td></tr>
+			<tr><th>3</th><td>-8</td><td>-6</td><td>-4</td><td>-2</td><td>0</td><td>2</td><td>4</td><td>6</td><td>8</td></tr>
+			<tr><th>4</th><td>-8</td><td>-4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>8</td></tr>
+			<tr><th>5</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td></tr>
+			<tr><th>6</th><td>-8</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td></tr>
+			<tr><th>7</th><td>16</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+			<tr><th>8</th><td>8</td><td>6</td><td>4</td><td>2</td><td>0</td><td>-2</td><td>-4</td><td>-6</td><td>-8</td></tr>
+			<tr><th>9</th><td>8</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>-4</td><td>-8</td></tr>
+			<tr><th>10</th><td>-8</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+			<tr><th>11</th><td>0</td><td>0</td><td>0</td><td>16</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+			<tr><th>12</th><td>-8</td><td>-8</td><td>-8</td><td>-8</td><td>-8</td><td>-8</td><td>-8</td><td>-8</td><td>48</td></tr>
+			<tr><th>13</th><td>-8</td><td>-6</td><td>-4</td><td>-2</td><td>0</td><td>-2</td><td>-4</td><td>-6</td><td>-8</td></tr>
+			<tr><th>14</th><td>-8</td><td>-7</td><td>-6</td><td>-5</td><td>-4</td><td>-3</td><td>-2</td><td>-1</td><td>0</td></tr>
+		</tbody>
+		</tbody>
+	</table>
+	</dd>
+</dl>
+
+<div id="sidebar">
+	<ul id="navi">
+		<li><a href="#s1">戦闘能力の変化</a></li>
+		<li><a href="#s2">変化パターン</a></li>
+	</ul>
+</div><!-- sidebar -->
+
+</div><!-- wrapper -->
+
+<ul id="footer">
+	<li><a tabindex="6" accesskey="6" href="../">メニュー</a></li>
+	<li><a tabindex="7" accesskey="7" href="#top">ページの上部へ</a></li>
+</ul>
+
+<p class="script">
+<script type="text/javascript" src="../../../../script/js/stats.js" charset="UTF-8"></script>
+</p>
+<noscript><p class="script"><img src="http://zwei.bmky.net/x/stats/php-stats.php" width="0" height="0" alt="an" /></p></noscript>
+
+</body>
+</html>

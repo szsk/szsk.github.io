@@ -1,0 +1,75 @@
+@import url( m2_title.css );
+
+/* link */
+
+a:link,
+a:active {
+	color : #000000;
+	text-decoration : none;
+}
+
+a:visited {
+	color : #666666;
+	text-decoration : none;
+}
+
+a:hover {
+	color : #FF9966;
+	text-decoration : underline;
+}
+
+
+
+/* History */
+
+.history {
+	font : normal bold 90% sans-serif;
+	clear : right;
+	margin : 2em 0 1em;
+	padding-left : 1em;
+	text-align : left;
+	border-bottom : 4px solid #999999;
+}
+
+
+
+/* Menu */
+
+dl {
+	width : 100%;
+	margin : 0;
+	line-height : 140%;
+	clear : right;
+}
+
+dt {
+	width : 7em;
+	margin : 0.2em;
+	padding-left : 0.2em;
+	float : right;
+	font : normal bold 100% cursive;
+	border-left : 3px solid #333333;
+	text-align : center;
+}
+
+dd {
+	font-weight : bold;
+	margin : 0.2em 0.3em;
+	float : right;
+}
+
+
+
+/* access */
+#SCRIPT {
+	display : none;
+}
+
+
+
+/* form */
+#Form {
+	padding-top : 1em;
+	padding-left : 1em;
+	font : normal bold 90% sans-serif;
+}

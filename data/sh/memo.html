@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />	
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<link rev="made" href="mailto:suzusaki_es@hotmail.com" />
+	<link rel="StyleSheet" href="style/sh.css" />
+	<link rel="home top contents index" href="./" />
+	<link rel="up" href="../" />
+	<link rel="help" href="./about.html" />
+	<link rel="bookmark" href="./#bookmark" />
+	<title>ソウルハッカーズ &raquo; 調査メモ</title>
+</head>
+<body>
+
+<ul id="top">
+	<li><a tabindex="1" accesskey="1" href="./">トップ</a></li>
+	<li><a tabindex="2" accesskey="2" href="guide/">シナリオ攻略</a></li>
+	<li><a tabindex="3" accesskey="3" href="system/">システム</a></li>
+	<li><a tabindex="4" accesskey="4" href="data/">データ</a></li>
+	<li><a tabindex="5" accesskey="5" href="text/">テキスト</a></li>
+	<li>
+		<form method="get" action="http://www.google.co.jp/search"><p>
+			<input type="radio" class="radio" name="sitesearch" value="" id="www" /><label for="www">www</label>
+			<input type="radio" class="radio" name="sitesearch" value="bmky.net/data/sh/" id="site" checked="checked" /><label for="site">Hackers</label>
+			<input type="text" class="text" name="q" size="12" maxlength="128" value="" />
+			<input type="submit" class="submit" name="btnG" value="検索" />
+			<input type="hidden" name="hl" value="ja" />
+			<input type="hidden" name="ie" value="UTF-8" />
+		</p></form>
+	</li>
+</ul>
+
+<h1>調査メモ</h1>
+
+<dl>
+	<dd>
+	<h2>調査メモ</h2>
+	<p>以下に記述する内容は真偽が定かではないので鵜呑みにしないように。大体は合ってるとは思うが。</p>
+  <h2>回避計算式</h2>
+  <p>LV * 1.5 + 速 + 運 * 0.5（各計算でそれぞれ小数点切り捨て）</p>
+  <p>データを生成していたスクリプトが動かないので全悪魔データに反映させるかどうかは未定。</p>
+	<h2>ダメージ計算式</h2>
+	<p>( 攻撃力 + ( 特技威力 / 2 ) ) ^ 2 / 防御力 * カジャ修正 * 相性補正 + 乱数補正</p>
+	<p>魔法攻撃修正:魔法の場合最終ダメージを0.8倍※1。</p>
+	<p>物理距離修正:前列から後列へはダメージを0.6倍。後列から後列は未調査。</p>
+	<p>限界補正:ダメージが10000以上になる場合は9999※2になる。</p>
+	<p>※1 0.75かも。</p>
+	<p>※2 実際には9700～9999。9999ピッタリは一度たりとも見たことが無いので、たぶん一旦9999にしたあとにマイナスだけの乱数補正をかけてるような気がする。</p>
+	<h2>生体MAG抜き</h2>
+	<p>万能相性っぽい</p>
+	<h2>沈黙のささやき</h2>
+	<p>万能だけど魔反射状態で無効化できるっぽい</p>
+	<h2>補助魔法の効果</h2>
+	<h3>タル・カジャ、マカ・カジャによる威力上昇</h3>
+	<p>150% &raquo; 250% &raquo; 350% &raquo; 450%</p>
+	<h3>ラク・カジャによる防御力上昇</h3>
+	<p>125% &raquo; 150% &raquo; 175% &raquo; 200%</p>
+	<h3>タル・ンダによる威力低下</h3>
+	<p>80% &raquo; 60% &raquo; 40% &raquo; 20%</p>
+	<h3>ラク・ンダの防御力低下</h3>
+	<p>90% &raquo; 80% &raquo; 70% &raquo; 60%</p>
+	<p>スク・カジャ、スク・ンダは調べようが無いので割愛。</p>
+	<h2>酒の効果</h2>
+	<p>酩酊状態は全11段階で、（短）効果の酒で1段階、（長）効果の酒で4段階上昇する。</p>
+	<p>酩酊状態で威力の上昇する特技は1段階につき25%ずつ威力が上昇し、350%まで上昇する。</p>
+	<p>酩酊段階は、3Dマップで50歩前後（ランダム）移動すると1段階下降する。</p>
+	<p>惑いの千鳥足の威力は1っぽい。素の状態で使うなら敵全員を殴るのと大体一緒。</p>
+	<h2>戦の魔王</h2>
+	<p>戦の魔王は打撃相性の魔法特技なので、マカ・カジャで威力が上昇する。魔法特技なので、当然タル・ンダの影響を受けず、後列から使用しても威力が下がらない。</p>
+	<h2>満月の女王</h2>
+	<p>満月時に威力が上昇となっているが、正しくは<em>満月時以外は威力が半減する</em>。</p>
+	<h2>フロストファイブ</h2>
+	<p>revisionによると200%反射となっているが、150%っぽい。</p>
+	<h2>瞬間最高ダメージ</h2>
+	<p>ダメージ4桁のリミットがなければ、満月の女王で47000ダメージ？</p>
+	</dd>
+</dl>
+
+<ul id="footer">
+	<li><a tabindex="6" accesskey="6" href="./">メニュー</a></li>
+	<li><a tabindex="7" accesskey="7" href="#top">ページの上部へ</a></li>
+</ul>
+
+<p class="script">
+<script type="text/javascript" src="../../script/js/stats.js" charset="UTF-8"></script>
+</p>
+<noscript><p class="script"><img src="http://zwei.bmky.net/x/stats/php-stats.php" width="0" height="0" alt="an" /></p></noscript>
+
+</body>
+</html>

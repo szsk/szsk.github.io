@@ -1,0 +1,220 @@
+/* データ用 */
+
+@import url(../item.css);
+
+body{
+	padding : 0;
+	margin : 0;
+	font-size : 85%;
+	text-align : center;
+	font-family: 'ＭＳ ゴシック', helvetica, arial, verdana, monospace;
+}
+
+
+
+#DEVILMENU div{
+	padding : 3em 0em 3em 3em;
+	clear : left;
+	text-align : justify;
+}
+
+#DEVILMENU dl{
+	float : left;
+	margin : 0em 0em 2px 0em;
+	padding : 0;
+	display : block;
+}
+
+#DEVILMENU dt{
+	width : 4em;
+	height : 2.5em;
+	text-align : justify;
+	margin : 0;
+	padding : 1px 2px 0px 2px;
+	border-bottom : 1px solid #000;
+}
+
+#DEVILMENU dd{
+	text-align : justify;
+	width : 4em;
+	margin : 0;
+	padding : 1px 2px 0px 2px;
+	border-bottom : 1px solid #ccc;
+}
+
+#DEVILMENU div a:link, #DEVILMENU div a:hover, #DEVILMENU div a:visited{
+	text-decoration : none;
+}
+
+
+
+/* リスト表示 */
+#DEVIL div{
+	float : left;
+	padding-left : 1em;
+	margin-bottom : 2em;
+	display : block;
+	height : auto;
+	width : 96%;
+/*	background-color : #ddd;*/
+}
+
+
+
+/* タグジャンプ用 */
+#DEVIL div a{
+	display : block;
+	text-align : left;
+	margin-top : 1em;
+	margin-bottom : 1em;
+	font-weight : bold;
+}
+
+
+
+/* リスト用 */
+#DEVIL div dl{
+	float : left;
+	margin : 0em 0em 2px 0em;
+	padding : 0;
+	display : block;
+}
+
+#DEVIL div dt{
+	text-align : left;
+	margin : 0;
+	padding : 1px 2px 0px 2px;
+	border-bottom : 1px dashed #000;
+}
+
+#DEVIL div dd{
+	text-align : left;
+	margin : 0;
+	padding : 1px 2px 0px 2px;
+	border-bottom : 1px dashed #000;
+}
+
+
+
+/* 用途毎に横幅を設定 */
+#DEVIL .param dd{
+	width : 7em;
+}
+
+#DEVIL .skill dd{
+	width : 11em;
+}
+
+#DEVIL .stage{
+	clear : left;
+	display : block;
+	width : 95%;
+}
+
+#DEVIL .stage dt{
+	float : left;
+	width : 22em;
+	text-align : left;
+}
+
+#DEVIL .stage dd{
+	float : left;
+	width : 7em;
+}
+
+#DEVILAFF body{
+	padding : 0;
+	margin : 0;
+	font-size : 75%;
+	text-align : center;
+	font-family: 'ＭＳ ゴシック', helvetica, arial, verdana, monospace;
+}
+
+#DEVILAFF div{
+	padding-left : 1em;
+	margin-bottom : 2em;
+	float : left;
+	display : block;
+	height : auto;
+	width : 96%;
+}
+
+#DEVILAFF div dl{
+	margin : 1em 0em 0em 0em;
+	float : left;
+	width : 2.6em;
+}
+
+#DEVILAFF div dt{
+	padding : 0px 2px 0px 2px;
+	text-align : center;
+	border-bottom : 1px solid #888;
+}
+
+#DEVILAFF div dd{
+	padding : 1px 2px 1px 2px;
+	margin : 0;
+	border-bottom : 1px dashed #aaa;
+}
+
+#DEVILAFF .data{
+	text-align : right;
+}
+
+#DEVILAFF .race{
+	width : 3.5em;
+	text-align : center;
+}
+
+#DEVILAFF .weapon{
+	width : 9.0em;
+	text-align : center;
+}
+
+#DEVILAFF .armor{
+	width : 4.8em;
+	text-align : center;
+}
+
+#DEVILAFF .land{
+	width : 45.0em;
+	text-align : left;
+}
+
+#DEVILAFF .weak{
+	color : #f00;
+	background-color : #fff;
+}
+
+#DEVILAFF .advantage{
+	color : #00f;
+	background-color : #fff;
+}
+
+/* テキスト部分 */
+.text{
+	padding : 3px;
+	margin-top : 2em;
+	width : 45em;
+	text-align : left;
+}
+
+#TEXT div{
+	width : 50%;
+	margin : 2em auto 2em auto;
+	padding : 0em 1em 1em 1em;
+	border : 1px #000 solid;
+	text-align : left;
+	line-height : 130%;
+}
+
+#TEXT div h4{
+	display : block;
+	margin : 2em 0em 1em 0em;
+	padding-left : 1em;
+	font-size : 100%;
+	font-weight : normal;
+	background-image : url(../list.bmp);
+	background-repeat : no-repeat;
+	background-position : 0.1em center;
+}

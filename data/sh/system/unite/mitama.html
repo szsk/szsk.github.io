@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />	
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<link rev="made" href="mailto:suzusaki_es@hotmail.com" />
+	<link rel="StyleSheet" href="../../style/sh.css" />
+	<link rel="home top contents index" href="../../" />
+	<link rel="up" href="../" />
+	<link rel="help" href="../../about.html" />
+	<link rel="bookmark" href="../../#bookmark" />
+	<link rel="first" href="unite.html" />
+	<link rel="last" href="hero.html" />
+	<link rel="prev" href="spirits.html" />
+	<link rel="next" href="special.html" />
+	<script type="text/javascript" src="../../style/xmlhttprequest.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="../../style/common.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="../../style/navi.js" charset="UTF-8"></script>
+	<title>ソウルハッカーズ &raquo; 御霊合体</title>
+</head>
+<body>
+
+<ul id="top">
+	<li><a tabindex="1" accesskey="1" href="../../">トップ</a></li>
+	<li><a tabindex="2" accesskey="2" href="../../guide/">シナリオ攻略</a></li>
+	<li><a tabindex="3" accesskey="3" href="../" class="here">システム</a></li>
+	<li><a tabindex="4" accesskey="4" href="../../data/">データ</a></li>
+	<li><a tabindex="5" accesskey="5" href="../../text/">テキスト</a></li>
+	<li>
+		<form method="get" action="http://www.google.co.jp/search"><p>
+			<input type="radio" class="radio" name="sitesearch" value="" id="www" /><label for="www">www</label>
+			<input type="radio" class="radio" name="sitesearch" value="bmky.net/data/sh/" id="site" checked="checked" /><label for="site">Hackers</label>
+			<input type="text" class="text" name="q" size="12" maxlength="128" value="" />
+			<input type="submit" class="submit" name="btnG" value="検索" />
+			<input type="hidden" name="hl" value="ja" />
+			<input type="hidden" name="ie" value="UTF-8" />
+		</p></form>
+	</li>
+</ul>
+
+<h1>御霊合体</h1>
+
+<div id="wrapper">
+
+<dl id="content">
+	<dt>御霊とは？</dt>
+	<dd>
+	<h2 id="s1">御霊とは？</h2>
+	<p>悪魔の能力値を上昇させることができる種族。それが御霊である。</p>
+	<p>御霊を利用することで、かなりのレベル差を物ともしない程の悪魔を作成することも可能である。愛着の沸いた悪魔を最後まで連れまわしたりする場合などに必須である。</p>
+	</dd>
+	<dt>御霊の効果</dt>
+	<dd>
+	<h2 id="s2">御霊の効果</h2>
+	<p>それぞれの御霊は、以下の通りに対応した能力値を上昇させる。</p>
+	<table summary="御霊上昇能力値">
+		<tbody>
+			<tr><th>サキミタマ</th><td>最大HP</td><td>運</td></tr>
+			<tr><th>クシミタマ</th><td>最大MP</td><td>魔力</td></tr>
+			<tr><th>ニギミタマ</th><td>知力</td><td>速さ</td></tr>
+			<tr><th>アラミタマ</th><td>力</td><td>耐力</td></tr>
+		</tbody>
+	</table>
+	<h3>能力値上昇法則</h3>
+	<p>合体前の値 * 1.2 + 1</p>
+	<p>初期値の2倍が上限となり、HPは999、パラメータは40が最高となる。</p>
+	<h3>HP上昇法則</h3>
+	<p>初期値の2倍以下：合体前の値 + ( 初期値 * 2 - 合体前の値 ) / 4 + レベル</p>
+	<p>初期値の2倍超：合体前の値 + レベル</p>
+	<p>* 合体時には御霊の魔法は継承されない。</p>
+	<p>* 精霊・御霊・造魔・戦士には御霊を合体させることは不可能。</p>
+	<p>* 各々端数切り捨て</p>
+	</dd>
+	<dt>御霊合体法則</dt>
+	<dd>
+	<h2 id="s3">御霊合体法則</h2>
+	<p>複数の精霊同士を合体させることで、以下の法則に基づいた御霊が作成される。</p>
+	<table summary="御霊合体法則">
+		<tbody>
+			<tr><th rowspan="2">サキミタマ</th><td>サラマンダー</td><td>ウンディーネ</td><td>シルフ</td></tr>
+			<tr><td>サラマンダー</td><td>ウンディーネ</td><td>ノーム</td></tr>
+			<tr><th rowspan="2">クシミタマ</th><td>サラマンダー</td><td>シルフ</td><td>ノーム</td></tr>
+			<tr><td>ウンディーネ</td><td>シルフ</td><td>ノーム</td></tr>
+			<tr><th rowspan="3">ニギミタマ</th><td>ウンディーネ</td><td>シルフ</td><td></td></tr>
+			<tr><td>ウンディーネ</td><td>ノーム</td><td></td></tr>
+			<tr><td>シルフ</td><td>ノーム</td><td></td></tr>
+			<tr><th rowspan="3">アラミタマ</th><td>サラマンダー</td><td>ウンディーネ</td><td></td></tr>
+			<tr><td>サラマンダー</td><td>シルフ</td><td></td></tr>
+			<tr><td>サラマンダー</td><td>ノーム</td><td></td></tr>
+		</tbody>
+	</table>
+	</dd>
+</dl>
+
+<div id="sidebar">
+	<ul id="navi">
+		<li><a href="#s1">御霊とは？</a></li>
+		<li><a href="#s2">御霊の効果</a></li>
+		<li><a href="#s3">御霊合体法則</a></li>
+	</ul>
+	<ul>
+		<li><a href="../battle/human.html">戦闘</a></li>
+		<li>合体
+			<ul>
+				<li><a href="unite.html">悪魔合体</a></li>
+				<li><a href="spirits.html">精霊合体</a></li>
+				<li>御霊合体</li>
+				<li><a href="special.html">特殊合体</a></li>
+				<li><a href="sucmagic.html">魔法継承</a></li>
+				<li><a href="accident.html">合体事故</a></li>
+				<li><a href="sword.html">剣合体</a></li>
+				<li><a href="mashou.html">魔晶変化</a></li>
+				<li><a href="god.html">威霊・狂神合体</a></li>
+				<li><a href="hero.html">英雄・猛将合体</a></li>
+			</ul>
+		</li>
+		<li><a href="../zouma/zouma.html">造魔</a></li>
+	</ul>
+</div><!-- sidebar -->
+
+<ul id="step">
+	<li class="prev"><a href="spirits.html">&laquo; 精霊合体</a></li>
+	<li class="next"><a href="special.html">特殊合体 &raquo;</a></li>
+</ul>
+
+</div><!-- wrapper -->
+
+<ul id="footer">
+	<li><a tabindex="6" accesskey="6" href="../">メニュー</a></li>
+	<li><a tabindex="7" accesskey="7" href="#top">ページの上部へ</a></li>
+</ul>
+
+<p class="script">
+<script type="text/javascript" src="../../../../script/js/stats.js" charset="UTF-8"></script>
+</p>
+<noscript><p class="script"><img src="http://zwei.bmky.net/x/stats/php-stats.php" width="0" height="0" alt="an" /></p></noscript>
+
+</body>
+</html>

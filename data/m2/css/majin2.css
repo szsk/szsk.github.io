@@ -1,0 +1,13 @@
+BODY{color : white;font-weight : normal;background-color : black;}
+TABLE{font-size : 12px;border-width : 1pt 0pt 0pt 1pt;border-style : solid solid solid solid;}
+TD{background : #303058;border-style : solid; border-width : 0px 1px 1px 0px;font-family : "ＭＳ 明朝";color : white;padding : 4px 4px 4px 4px;vertical-align : top;}
+TH{background : #a39cf5;border-style : solid; border-width : 0px 1px 1px 0px;font-family : "ＭＳ 明朝";color : white;padding : 4px 4px 4px 4px;}
+CAPTION{color : white;background-color : black;padding-top : 5px;font-size : 13pt;}
+A:LINK{color : white;}
+A:VISITED{color : white;}
+.t1{border-width : 0px 0px 1px 0px;}
+.w1{background: #000000; border-width: 0px;}
+.w2{border-width : 0px;}
+.w3{text-align : center;}
+.w4{border-width : 0pt 1pt 0pt 0pt;}
+.w5{border-width : 0pt 0pt 1pt 0pt;}

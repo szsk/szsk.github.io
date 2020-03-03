@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />	
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<link rev="made" href="mailto:suzusaki_es@hotmail.com" />
+	<link rel="StyleSheet" href="../../style/sh.css" />
+	<link rel="home top contents index" href="../../" />
+	<link rel="up" href="../" />
+	<link rel="help" href="../../about.html" />
+	<link rel="bookmark" href="../../#bookmark" />
+	<script type="text/javascript" src="../../style/xmlhttprequest.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="../../style/common.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="../../style/navi.js" charset="UTF-8"></script>
+	<title>ソウルハッカーズ &raquo; 状態異常</title>
+</head>
+<body>
+
+<ul id="top">
+	<li><a tabindex="1" accesskey="1" href="../../">トップ</a></li>
+	<li><a tabindex="2" accesskey="2" href="../../guide/">シナリオ攻略</a></li>
+	<li><a tabindex="3" accesskey="3" href="../" class="here">システム</a></li>
+	<li><a tabindex="4" accesskey="4" href="../../data/">データ</a></li>
+	<li><a tabindex="5" accesskey="5" href="../../text/">テキスト</a></li>
+	<li>
+		<form method="get" action="http://www.google.co.jp/search"><p>
+			<input type="radio" class="radio" name="sitesearch" value="" id="www" /><label for="www">www</label>
+			<input type="radio" class="radio" name="sitesearch" value="bmky.net/data/sh/" id="site" checked="checked" /><label for="site">Hackers</label>
+			<input type="text" class="text" name="q" size="12" maxlength="128" value="" />
+			<input type="submit" class="submit" name="btnG" value="検索" />
+			<input type="hidden" name="hl" value="ja" />
+			<input type="hidden" name="ie" value="UTF-8" />
+		</p></form>
+	</li>
+</ul>
+
+<h1>状態異常</h1>
+
+<dl>
+	<dt>状態異常一覧</dt>
+	<dd>
+	<h2 id="s1">状態異常一覧</h2>
+	<table summary="状態異常一覧">
+		<colgroup>
+			<col class="effect" />
+			<col class="effect" />
+			<col />
+			<col class="effect" />
+			<col />
+		</colgroup>
+		<thead>
+			<tr><th>印</th><th>名称</th><th>状態</th><th>自然</th><th>回復</th></tr>
+		</thead>
+		<tbody>
+			<tr><td>揚</td><td>HIGH</td><td>指示を無視してATTACKやSWORD</td><td>○</td><td>パトラ<br />メ・パトラ<br />メ・パトラの石<br />ソーマ</td></tr>
+			<tr><td>電</td><td>SHOCK</td><td>受けたターンのみ行動不可能</td><td>○</td><td>パトラ<br />メ・パトラ<br />メ・パトラの石<br />ソーマ</td></tr>
+			<tr><td>氷</td><td>FREEZE</td><td>受けたターンのみ行動不可能</td><td>○</td><td>パトラ<br />メ・パトラ<br />メ・パトラの石<br />ソーマ</td></tr>
+			<tr><td>眠</td><td>SLEEP</td><td>行動不可能<br />ダメージを受けると回復する</td><td>○</td><td>パトラ<br />メ・パトラ<br />メ・パトラの石<br />ソーマ</td></tr>
+			<tr><td>毒</td><td>POISON</td><td>戦闘中は攻撃力低下<br />移動中はダメージを受ける</td><td>○</td><td>ポズムディ<br />ディスポイズン<br />ソーマ</td></tr>
+			<tr><td>痺</td><td>PALYZE</td><td>行動不可能</td><td>○</td><td>パララディ<br />ディスパライズ<br />ソーマ</td></tr>
+			<tr><td>爆</td><td>BOMB</td><td>火炎攻撃を受けると自分は死亡し<br />隣接する仲魔にダメージ</td><td>○</td><td>ボムディ<br />ソーマ</td></tr>
+			<tr><td>魅</td><td>CHARM</td><td>自分を含めた味方に攻撃を仕掛ける</td><td>○</td><td>チャムディ<br />ディスチャーム<br />ソーマ</td></tr>
+			<tr><td>的</td><td>MARK</td><td>敵の攻撃が集中する</td><td>×</td><td>マークディ<br />ソーマ</td></tr>
+			<tr><td>石</td><td>STONE</td><td>仲魔はCOMPに戻される<br />人間は死亡と同じ扱い</td><td>×</td><td>ペトラディ<br />ディスチャーム<br />ソーマ</td></tr>
+			<tr><td>屍</td><td>UNDEAD</td><td>DEADの仲魔がネクロマで召喚された状態<br />ダメージ無効、状態異常無効<br />回復効果か戦闘終了で再びDEAD</td><td>×</td><td></td></tr>
+			<tr><td>死</td><td>DEAD</td><td>行動不可能、仲魔はCOMPに戻される<br />主人公が陥った場合は即ゲームオーバー</td><td>×</td><td>リカーム<br />サマリカーム<br />地返しの玉<br />反魂香</td></tr>
+			<tr><td>瀕</td><td>DYING</td><td>ネミッサ専用のDEAD</td><td>×</td><td>リカーム<br />サマリカーム<br />地返しの玉<br />反魂香</td></tr>
+			<tr><td></td><td>CLOSE</td><td>魔法と魔法特技が使用不可能</td><td>×</td><td>ディクローズの石</td></tr>
+		</tbody>
+	</table>
+	</dd>
+</dl>
+
+<ul id="footer">
+	<li><a tabindex="6" accesskey="6" href="../">メニュー</a></li>
+	<li><a tabindex="7" accesskey="7" href="#top">ページの上部へ</a></li>
+</ul>
+
+<p class="script">
+<script type="text/javascript" src="../../../../script/js/stats.js" charset="UTF-8"></script>
+</p>
+<noscript><p class="script"><img src="http://zwei.bmky.net/x/stats/php-stats.php" width="0" height="0" alt="an" /></p></noscript>
+
+</body>
+</html>

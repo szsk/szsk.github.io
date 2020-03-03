@@ -1,0 +1,55 @@
+/* body */
+
+body {
+	padding : 0;
+	margin : 0;
+	background-image : url( back.png );
+}
+
+/* Title */
+
+h1 {
+	font : normal bold 130% sans-serif;
+	color : #ffffff;
+	background-color : #FF6600;
+	margin : 3em 0 1em;
+	padding : 1em 0;
+	border-top : 4px solid #333333;
+	border-bottom : 4px solid #333333;
+	text-align : center;
+}
+
+/* Back */
+
+h2 {
+	font : normal bold 90% sans-serif;
+	text-align : right;
+	margin-right : 1em;
+}
+
+
+
+/* link */
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	background-color : inherit;
+}
+
+h2 a:link,
+h2 a:active {
+	color : #000000;
+	text-decoration : none;
+}
+
+h2 a:visited {
+	color : #666666;
+	text-decoration : none;
+}
+
+h2 a:hover {
+	color : #FF9966;
+	text-decoration : underline;
+}
