@@ -1,0 +1,89 @@
+#top                { border-top : 1px solid #a6007c; }
+#top:hover          { border-top : 1px solid #ff00bf; }
+#chapter            { background-color : #a6007c; }
+#chapter li a:hover { background-color : #ff00bf; }
+#chapter li.current { background-color : #ff00bf; }
+h1 a:hover          { color : #ff00bf; }
+#stage li a:hover   { color : #ff00bf; }
+
+.index .chapter {
+height : 190px;
+}
+.index .chapter li {
+width : 20em;
+}
+#content {
+max-width : 45em;
+}
+
+#content dd {
+position: relative;
+}
+#content dd pre {
+position: absolute;
+right: 10px;
+margin: 0;
+padding: 0;
+line-height: 1.0 !important;
+}
+#content dd dl {
+margin: 1em 0;
+padding: 0;
+width: 70%;
+}
+#content dd dl dd {
+background-image: none;
+background-color: transparent;
+border: 0;
+-webkit-box-shadow: #bbb 0px 0px 0px;
+box-shadow: #bbb 0px 0px 0px;
+margin: 0 0 0 1em !important;
+padding: 0 !important;
+}
+#content dd dl dd:before {
+/* content: "\2713";*/
+}
+#content dd dl dt {
+background-image: none;
+background-color: transparent;
+border: 0;
+margin: 1em 0 0 0;
+padding: 0 !important;
+height: auto;
+}
+#content dd dl dt a {
+display: inline;
+height: auto;
+line-height: auto;
+position: static;
+}
+
+
+dd dl .quiz {
+background: url(mi_quiz.png) left center no-repeat;
+padding-left: 20px;
+}
+dd dl .analyze {
+background: url(mi_analyze.png) left center no-repeat;
+padding-left: 20px;
+display: inline !important;
+}
+dd dl .evidence {
+background: url(mi_evidence.png) left center no-repeat;
+padding-left: 20px;
+font-weight: bold;
+color: red;
+}
+dd dl .voice {
+background: url(mi_voice.png) left center no-repeat;
+padding-left: 20px;
+}
+dd dl .card {
+background: url(mi_card.png) left center no-repeat;
+padding-left: 20px;
+font-weight: bold;
+}
+
+pre {
+color: #fff;
+}

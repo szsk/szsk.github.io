@@ -1,0 +1,17 @@
+#top                { border-top : 1px solid #007CA6; }
+#top:hover          { border-top : 1px solid #00bfff; }
+#chapter            { background-color : #007CA6; }
+#chapter li a:hover { background-color : #00bfff; }
+#chapter li.current { background-color : #00bfff; }
+h1 a:hover          { color : #00bfff; }
+#stage li a:hover   { color : #00bfff; }
+.recollections {
+border-left : 5px solid #777;
+padding-left : 1em;
+}
+#content {
+max-width : 45em;
+}
+.index .chapter {
+height : 290px;
+}

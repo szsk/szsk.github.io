@@ -1,0 +1,14 @@
+#top                { border-top : 1px solid #a67c00; }
+#top:hover          { border-top : 1px solid #ffbf00; }
+#chapter            { background-color : #a67c00; }
+#chapter li a:hover { background-color : #ffbf00; }
+#chapter li.current { background-color : #ffbf00; }
+h1 a:hover          { color : #ffbf00; }
+#stage li a:hover   { color : #ffbf00; }
+
+.index .chapter li {
+width : 20em;
+}
+#content {
+max-width : 50em;
+}

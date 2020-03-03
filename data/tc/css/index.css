@@ -1,0 +1,79 @@
+h1#index                   { font-family : Arial; }
+.index .chapter            { font-family : Georgia; }
+.index .links              { font-family : Arial; }
+
+.index h1                  { font-size : 150%; }
+
+.index .chapter a:link     { color : #fff; }
+.index .chapter a:visited  { color : #fff; }
+.index .links a:link       { color : #000; }
+.index .links a:visited    { color : #000; }
+.index .links a:hover      { color : red; }
+
+#content.index             { background-image : none }
+#navi.index                { background : url( navi_bg_top.png ) right top no-repeat; }
+.index .chapter            { background : url( index_chapter_bg.png ) left top repeat-y; }
+.index .links li           { background : url( links_bullet.png ) left center no-repeat; }
+
+.index .chapter li a       { background-color : #888; }
+.index .chapter li a:hover { background-color : #8c8; }
+
+
+
+.index .links {
+line-height : 1.5;
+margin : 32px 32px;
+list-style-type : none;
+clear : left;
+}
+.index .links li {
+padding-left : 12px;
+}
+
+.index {
+padding-top : 0;
+margin-bottom : 1em;
+}
+.index p {
+margin : 0 1em;
+}
+
+.index h1 {
+position : static;
+width : auto;
+height : auto;
+padding-left : 0.5em;
+margin : 1em 0;
+text-shadow: #aaa 2px 2px 2px;
+
+}
+.index h1 span {
+display : inline;
+margin-left : 0.5em;
+}
+
+.index .chapter {
+height : 245px;
+padding-top : 3px;
+}
+.index .chapter li {
+float : left;
+width : 17em;
+list-style-type : none;
+margin : 7px 0.5em 16px 0.5em;
+}
+.index .chapter a {
+padding : 3px;
+display : block;
+line-height : 16px;
+height ; 16px;
+border : 2px outset #888;
+}
+.index .chapter a:link
+, .index .chapter a:visited {
+font-weight : bold;
+text-decoration : none;
+}
+.index .chapter a:hover {
+border : 2px outset #8c8;
+}
